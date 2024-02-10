@@ -1,0 +1,3366 @@
+{
+  "current": {
+    "heading_color": "#551c50",
+    "text_color": "#3a3a3a",
+    "accent_color": "#df9c1e",
+    "link_color": "#15838c",
+    "border_color": "#e1e3e4",
+    "background": "#fafafa",
+    "secondary_background": "#ffffff",
+    "error_color": "#ff0000",
+    "success_color": "#15838c",
+    "primary_button_background": "#df9c1e",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#15838c",
+    "secondary_button_text_color": "#ffffff",
+    "header_background": "#551c50",
+    "header_text_color": "#ffffff",
+    "header_light_text_color": "#ffffff",
+    "header_accent_color": "#df9c1e",
+    "footer_background_color": "#f3f5f6",
+    "footer_heading_text_color": "#551c50",
+    "footer_body_text_color": "#3a3a3a",
+    "footer_accent_color": "#15838c",
+    "product_on_sale_accent": "#551c50",
+    "product_in_stock_color": "#18a414",
+    "product_low_stock_color": "#e62317",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#008a00",
+    "product_label_2_background": "#00a500",
+    "product_star_color": "#ffbd00",
+    "base_text_font_size": 16,
+    "heading_font": "din_next_n5",
+    "text_font": "din_next_n4",
+    "underline_links": true,
+    "animation_image_zoom": true,
+    "search_mode": "product,article",
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "square",
+    "show_color_swatch": false,
+    "show_inventory_quantity": true,
+    "low_inventory_threshold": 1,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_checkout_button": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "social_facebook": "https:\/\/www.facebook.com\/ebits.dk",
+    "social_twitter": "",
+    "social_pinterest": "",
+    "social_instagram": "",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCSu_cMfKB_UJ_kvA513CXDg",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/fav_copy.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Rasmines_eBits_Logo_b0a147ff-80a6-48c2-8f64-3383734fa9d3.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#551c50",
+    "checkout_button_color": "#551c50",
+    "checkout_error_color": "#e62317",
+    "share_image": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/Rasmines_eBits_Logo_small_f5522fd4-6199-4817-8b3c-fe2b15dab369.png",
+          "logo_max_width": 130,
+          "mobile_logo_max_width": 100,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "navigation_menu": "collections",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "+45 36 95 96 55",
+          "navigation_email": "kontakt@ebits.dk",
+          "show_condensed_search": true,
+          "show_search_filter": false,
+          "search_menu": "main-menu",
+          "show_search_menu_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "About the shop",
+              "content": "<p>Your one-stop shop of tools and kits for engineers and developers at all levels of expertise in all of Europe. 🤖<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "collections"
+            }
+          },
+          "7a1c7f09-0899-4f8e-a325-27b233fe8e72": {
+            "type": "links",
+            "settings": {
+              "menu": "quick-links"
+            }
+          },
+          "8cbe8afb-73df-4698-a9a5-023179cb1345": {
+            "type": "links",
+            "settings": {
+              "menu": "blogs"
+            }
+          },
+          "6f7ee36d-14f5-48a7-928a-0169c86de1d8": {
+            "type": "links",
+            "settings": {
+              "menu": "legal"
+            }
+          },
+          "969ec402-a347-4fd6-a81c-1f164f1aa7ad": {
+            "type": "text",
+            "settings": {
+              "title": "Konsultering",
+              "content": "<p>Vi tilbyder også konsultering for kunder som har brug for mere advanceret sparring. <\/p><p>Læs mere hos vores søstervirksomhed!<\/p><p><a href=\"https:\/\/www.imaginarium.consulting\/\" title=\"Imaginarium Consulting\">Imaginarium Consulting<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "7a1c7f09-0899-4f8e-a325-27b233fe8e72",
+          "8cbe8afb-73df-4698-a9a5-023179cb1345",
+          "6f7ee36d-14f5-48a7-928a-0169c86de1d8",
+          "969ec402-a347-4fd6-a81c-1f164f1aa7ad"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_cookie_bar": true,
+          "text": "<p>VI PASSER PÅ DINE DATA<\/p><p>Hjemmesiden anvender cookies og indsamler persondata om IP, ID og din browser til statistik, optimal brugeroplevelse og marketingformål. <br\/><br\/>Se yderligere info under <a href=\"https:\/\/ebits.dk\/pages\/persondatapolitik\" title=\"https:\/\/ebits.dk\/pages\/persondatapolitik\">cookie- og persondatapolitik.<\/a><\/p>",
+          "accept_button": "Acceptér cookies"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/montage-copy-space-wooden-table-blurred-kids-playroom-background-kindergarten-3d-rendering_22724291.png",
+              "mobile_image": "shopify:\/\/shop_images\/kidspagebanner.png",
+              "show_overlay": true,
+              "overlay_opacity": 90,
+              "text_color": "#ffffff",
+              "title": "Mini Tank Robot",
+              "content": "Få den alt-i-en Mini Tank Robot med dobbelt funktionalitet til en enkelt pris - den kan udstyres med ultrasonisk sensor eller flammesensorer, styres via Bluetooth eller infrarød fjernbetjening, og udføre opgaver som at følge streg, lyskilde, undgå objekter og forblive indenfor et bestemt område.",
+              "content_position": "middle_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "See produkte",
+              "link": "https:\/\/ebits.dk\/collections\/leg-og-laer\/products\/mini-tank-robot"
+            }
+          }
+        },
+        "block_order": [
+          "slide-0"
+        ],
+        "settings": {
+          "edge_to_edge": false,
+          "section_size": "large",
+          "carousel_effect": "slide",
+          "autoplay": false,
+          "cycle_speed": 3
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "motorer",
+              "link": ""
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "displays",
+              "link": ""
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "effekt-elektronik",
+              "link": ""
+            }
+          },
+          "collection-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "kits",
+              "link": ""
+            }
+          },
+          "collection-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "mikrokontrollere",
+              "link": ""
+            }
+          },
+          "collection-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "passiver",
+              "link": ""
+            }
+          },
+          "5f056197-ad4d-4d48-800d-a8305e89b8b6": {
+            "type": "collection",
+            "settings": {
+              "collection": "sensorer",
+              "link": ""
+            }
+          },
+          "e7215586-1398-4b6f-84fe-5b439f422f0c": {
+            "type": "collection",
+            "settings": {
+              "collection": "starter-kollektion",
+              "link": ""
+            }
+          },
+          "b9ce52fe-df93-495e-ba5c-edb2d969e7cb": {
+            "type": "collection",
+            "settings": {
+              "collection": "vaerktoj-og-andet",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2",
+          "collection-3",
+          "collection-4",
+          "collection-5",
+          "5f056197-ad4d-4d48-800d-a8305e89b8b6",
+          "e7215586-1398-4b6f-84fe-5b439f422f0c",
+          "b9ce52fe-df93-495e-ba5c-edb2d969e7cb"
+        ],
+        "disabled": true,
+        "settings": {
+          "title": "Our collections",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "ttgo-t-display-s3-esp32-s3-med-wifi-bluetooth-og-1-9-farve-lcd-skaerm",
+          "title": "Udvalgte bestseller",
+          "link_title": "SE DETALJER",
+          "link_url": "",
+          "show_vendor": false,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_description": false,
+          "description_below_add_to_cart": true,
+          "selector_mode": "dropdown",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "medium",
+          "enable_image_zoom": false,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": true,
+          "low_inventory_threshold": 2
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list",
+          "show_quick_view": "list",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "tag",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": ""
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": false,
+          "show_sku": false,
+          "show_share_buttons": false,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "small",
+          "enable_video_looping": false,
+          "enable_image_zoom": true,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": true,
+          "low_inventory_threshold": 2,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Betaling & Sikkerhed",
+          "show_payment_icons": true,
+          "custom_security_badge_width": 200,
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "Denmark",
+          "show_refunds_policy": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "Andre kunder købte også...",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": true,
+          "background": "#df9c1e",
+          "text_color": "#ffffff",
+          "text": "Husk at der er gratis forsendelse ved køb over 800kr :)",
+          "text_position": "center",
+          "link": "",
+          "show_newsletter": false,
+          "newsletter_button": "Subscribe & Save",
+          "newsletter_title": "Newsletter",
+          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "settings": {
+        }
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-heart",
+              "title": "Kontakt os",
+              "content": "<p>Ring til 36 95 96 55, eller send en e-mail til kontakt@ebits.dk<\/p>"
+            }
+          },
+          "text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Top-notch kundeservice",
+              "content": "<p>Vi står altid klar til at hjælpe eller give mulighed for sparring.<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Sikker betaling",
+              "content": "<p>Alle transaktioner behandles sikkert og med de seneste teknologier.<\/p>"
+            }
+          },
+          "edd71a61-91e4-4ef8-b19a-d794c9f85561": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-gift-wrap",
+              "title": "Gavekort",
+              "content": "<p><a href=\"https:\/\/ebits.dk\/products\/gavekort-til-ebits\" target=\"_blank\" title=\"https:\/\/ebits.dk\/products\/gavekort-til-ebits\">Send venner og bekendte et gavekort til eBits til læring og sjov!<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-0",
+          "text-with-icons-2",
+          "text-with-icons-3",
+          "edd71a61-91e4-4ef8-b19a-d794c9f85561"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": false
+        }
+      },
+      "1625311178b527c97f": {
+        "type": "masonry-gallery",
+        "blocks": {
+          "2103b583-e4e1-4495-87d2-3102e4be86a1": {
+            "type": "Product",
+            "settings": {
+              "grid_size": "big",
+              "product_id": "ts100-digital-loddekolbe",
+              "button_text": "",
+              "button_color": "#e74c3c",
+              "color_overlay": "#551c50",
+              "color_opacity": 50
+            }
+          },
+          "b1b31f5f-42bd-4a50-bbd4-30cbba85e404": {
+            "type": "Image",
+            "settings": {
+              "grid_size": "small",
+              "image_thumbnail": "shopify:\/\/shop_images\/MicroPython_pa_ESP32_500x500_918bc599-c5da-4364-8e7f-9908f533488c.png",
+              "image_link": "shopify:\/\/blogs\/ebits-projekter\/micropython",
+              "button_text": "MicroPython guide",
+              "color_overlay": "#333333",
+              "color_opacity": 5
+            }
+          },
+          "244a0138-a4f4-4142-97ec-54d1b36712c1": {
+            "type": "Image",
+            "settings": {
+              "grid_size": "small",
+              "image_thumbnail": "shopify:\/\/shop_images\/Spaeningsdeler_500x500_5e88a560-1874-4fb2-8565-abc95928b05b.png",
+              "image_link": "shopify:\/\/blogs\/ebits-projekter\/spaendingsdeler",
+              "button_text": "Spændingsdeler guide",
+              "color_overlay": "#333333",
+              "color_opacity": 5
+            }
+          },
+          "ce289e2c-b5e4-4d68-8f1e-de515ef88571": {
+            "type": "Image",
+            "settings": {
+              "grid_size": "horizontal",
+              "image_thumbnail": "shopify:\/\/shop_images\/Loddetips_Thumbnail_600x_fa82c10f-dea6-44ae-abdb-e855e4b43f81.png",
+              "image_link": "shopify:\/\/blogs\/ebits-projekter\/koger",
+              "button_text": "Lær noget nyt om at lodde endnu bedre!",
+              "color_overlay": "#333333",
+              "color_opacity": 5
+            }
+          },
+          "462e91d7-3401-4251-bde9-bd2c77287a52": {
+            "type": "Collection",
+            "settings": {
+              "grid_size": "horizontal",
+              "collection_id": "mikrokontrollere",
+              "image_thumbnail": "shopify:\/\/shop_images\/giphy.gif",
+              "button_text": "",
+              "button_color": "#e74c3c",
+              "color_overlay": "#551c50",
+              "color_opacity": 50
+            }
+          },
+          "e0febb0e-d358-4158-9e62-470beccc959d": {
+            "type": "Product",
+            "settings": {
+              "grid_size": "small",
+              "product_id": "ttgo-t-display-esp32-wifi-og-bluetooth-med-1-1-tommer-farve-lcd",
+              "button_text": "",
+              "button_color": "#e74c3c",
+              "color_overlay": "#15838c",
+              "color_opacity": 50
+            }
+          },
+          "68e17eae-b14c-4506-bc73-06dd25253277": {
+            "type": "Collection",
+            "disabled": true,
+            "settings": {
+              "grid_size": "small",
+              "collection_id": "kits",
+              "image_thumbnail": "shopify:\/\/shop_images\/crop.jpg",
+              "button_text": "",
+              "button_color": "#e74c3c",
+              "color_overlay": "#208ea2",
+              "color_opacity": 50
+            }
+          },
+          "36da5664-9c2f-4634-a118-1d44a32054c6": {
+            "type": "Product",
+            "settings": {
+              "grid_size": "small",
+              "product_id": "130-graders-raspberry-pi-night-vision-kamera",
+              "button_text": "",
+              "button_color": "#e74c3c",
+              "color_overlay": "#15838c",
+              "color_opacity": 50
+            }
+          },
+          "a87ad439-16cc-4ed5-b9f6-52f00672779d": {
+            "type": "Collection",
+            "disabled": true,
+            "settings": {
+              "grid_size": "small",
+              "collection_id": "sensorer",
+              "image_thumbnail": "shopify:\/\/shop_images\/dev_2_-_warehouse.gif",
+              "button_text": "",
+              "button_color": "#e74c3c",
+              "color_overlay": "#df9c1e",
+              "color_opacity": 50
+            }
+          },
+          "15ee08b8-a9be-4e43-b3d5-238973f2fcac": {
+            "type": "Image",
+            "disabled": true,
+            "settings": {
+              "grid_size": "horizontal",
+              "image_thumbnail": "shopify:\/\/shop_images\/ESP32_Sensorer_-3_1200x_9cb4dc16-f38c-469b-af33-c1e152f7284d.png",
+              "image_link": "shopify:\/\/blogs\/ebits-projekter\/esp32",
+              "button_text": "Opsætning af ESP32 til Arduino IDE & Platform IO IDE",
+              "color_overlay": "#333333",
+              "color_opacity": 35
+            }
+          },
+          "70af290e-4eea-4997-b51b-345d2e372773": {
+            "type": "Image",
+            "settings": {
+              "grid_size": "horizontal",
+              "image_thumbnail": "shopify:\/\/shop_images\/ESP32_Sensorer_-2_1200x_312a9442-756d-4743-92ea-82e9b8bfd611.png",
+              "image_link": "shopify:\/\/blogs\/ebits-projekter\/esp32-ifttt",
+              "button_text": "RED PLANTERNE MED ESP32 & IFTTT!",
+              "color_overlay": "#333333",
+              "color_opacity": 25
+            }
+          },
+          "cfc25168-964b-46c3-aa13-c68985e79229": {
+            "type": "Image",
+            "settings": {
+              "grid_size": "small",
+              "image_thumbnail": "shopify:\/\/shop_images\/pull_500x500_e12c39c3-c88c-4dcd-9101-80fa2ed536d5.png",
+              "image_link": "shopify:\/\/blogs\/ebits-projekter\/pull-up-pull-down",
+              "button_text": "Lær at bruge pull up og down modstande",
+              "color_overlay": "#333333",
+              "color_opacity": 5
+            }
+          }
+        },
+        "block_order": [
+          "2103b583-e4e1-4495-87d2-3102e4be86a1",
+          "b1b31f5f-42bd-4a50-bbd4-30cbba85e404",
+          "244a0138-a4f4-4142-97ec-54d1b36712c1",
+          "ce289e2c-b5e4-4d68-8f1e-de515ef88571",
+          "462e91d7-3401-4251-bde9-bd2c77287a52",
+          "e0febb0e-d358-4158-9e62-470beccc959d",
+          "68e17eae-b14c-4506-bc73-06dd25253277",
+          "36da5664-9c2f-4634-a118-1d44a32054c6",
+          "a87ad439-16cc-4ed5-b9f6-52f00672779d",
+          "15ee08b8-a9be-4e43-b3d5-238973f2fcac",
+          "70af290e-4eea-4997-b51b-345d2e372773",
+          "cfc25168-964b-46c3-aa13-c68985e79229"
+        ],
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+          "form_heading": "Skriv til os",
+          "show_store_info": false,
+          "store_heading": "Find os",
+          "store_info": ""
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "title": "Deltag i nyhedsbrev",
+          "content": "<p>Deltag i vores fællesskab og hold dig opdateret om teknologiske nyheder, guider og information.<\/p>",
+          "subtext": "",
+          "background": "#15838c",
+          "text": "#ffffff"
+        }
+      },
+      "page-team-template": {
+        "type": "page-team-template",
+        "blocks": {
+          "page-team-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "",
+              "description": "<p>Hos eBits fokuserer vi på, at finde frem til det bedste udviklingselektronik til prisen.<\/p><p><\/p><p><\/p>"
+            }
+          },
+          "page-team-template-2": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rasmine.jpg",
+              "title": "Rasmine",
+              "subheading": "Kundeservice",
+              "story": "Hejsa, og velkommen til! Jeg håber du finder det du leder efter, og at du bliver glad for dit køb! Til daglig er det mig som for fornøjelsen af, at pakke dine bestillinger, og sende dem afsted til dig, hurtigt og sikkert.  Jeg stiftede eBits.dk efter at være vidende til en stigende interesse blandt elektronikingeniøre og elektronik hobbyister efter en Dansk platform for udviklingsudstyr og viden indenfor elektronikudvikling.",
+              "link": "",
+              "link_title": ""
+            }
+          },
+          "page-team-template-1": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nikolaj.jpg",
+              "title": "Nikolaj",
+              "subheading": "Indkøber",
+              "story": "Go’dav!  Jeg er indkøber hos eBits.dk, og er den der skriver vores produktbeskrivelser. Jeg er også medstifter af eBits.dk, og idemanden bag vingummibamserne der kommer med som en lille ekstra, når du modtager dine varer fra os (det var så lidt ;-)). Jeg er uddannet elektronikingeniør fra Aarhus Universitet, og har siden min studietid kreeret mange hobby,- og professionelle projekter. Alt fra hjemmelavede 3D printere til LED pingpong vægge.",
+              "link": "",
+              "link_title": ""
+            }
+          },
+          "caf1c322-5187-4dbf-a42d-b8405b24cbae": {
+            "type": "member",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Christoffer.jpg",
+              "title": "Christoffer",
+              "subheading": "Web developer",
+              "story": "Hej folkens! Mit navn er Christoffer, og jeg er i øjeblikket i gang med mit sidste semester af multimediedesign uddannelsen. Over de næste mange uger skal jeg hjælpe eBits med at få finpudset hjemmesiden så den er klar til at ramme det svenske markede. Yderligere skal jeg hjælpe med at lave kampagner til både børn og business. I min fritid kan jeg godt lide at være kreativ - jeg tager billeder med mit kamera, og leger lidt med elektronik - jeg har for nyligt bygget mit eget tastatur! :)",
+              "link": "",
+              "link_title": "Your link"
+            }
+          },
+          "5051cd8c-a080-411c-9474-39f1d02e0981": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/prekrasni_k-k__13__720.jpg",
+              "title": "Kaloyan",
+              "subheading": "Web designer",
+              "story": "Coding nerd! Min navn er Kaloyan. Currently in 4th semester Multi media design. On my road to becoming a front-end ninja. In the following months I will be assisting eBits in the development of their B2B platform and webpage, so they can appear on the Scandinavian market with style !",
+              "link": "",
+              "link_title": "Your link"
+            }
+          },
+          "88b19669-4477-473e-85de-054e4cb7dfff": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/minruian_720.jpg",
+              "title": "Minrui",
+              "subheading": "UX designer",
+              "story": "Hi! My name is Minrui, and I'm a UX designer focused on creating user-friendly digital experiences. I graduated from AAU with a major in Interaction Design. I am passionate about designing user-friendly UI, and icons and optimizing user experience. During the internship, I hope to develop my design and communication skills, contribute to creating user-friendly interfaces for Ebits, and become a better UX designer.",
+              "link": "",
+              "link_title": "Your link"
+            }
+          },
+          "member_ynBzBA": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/giovanna_madalina_bejan__1.png",
+              "title": "Giovanna",
+              "subheading": "Web designer",
+              "story": "Ciao! I am Giovanna, an intern at eBits. I'm a fourth-semester Multimedia Design student, with a focus on the vast world of UX\/UI. My role at eBits is to discover its authentic identity and make it shine distinctiveness among its peers with the tools and secrets of design.",
+              "link": "",
+              "link_title": "Your link"
+            }
+          },
+          "522305b9-6218-4640-a38c-55e1dc8da3fa": {
+            "type": "separator",
+            "settings": {
+              "title": "Kontakt os",
+              "description": "<p>Vi samarbejder med uddannelsesinstitutioner om større projekter og om, at skaffe og sammensætte målrettet produkter med leveringer til de studerende til brug ved studiestart. Skriv endelig til os hvis I ønsker en særaftale, eller lignende.<\/p><p><\/p><p>Butikken drives af mig og min mand som har arbejdet med elektronik i mange år. Skulle I have nogle forslag, udfordringer eller ønsker, så kontakt os endelig på kontakt@ebits.dk, eller via kontaktformularen herunder.<\/p>"
+            }
+          },
+          "member_EVPeHG": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/portr__t_mig-2.jpg",
+              "title": "Name",
+              "subheading": "Multimedie designer",
+              "story": "Hej jeg hedder Mads! Jeg er praktikant hos Ebits, jeg studerer nuværende på 4. semester som multimediedesigner. Jeg brænder for at udvikle fede og funktionelle front-end løsninger. Jeg går også op i at lave diverse content, som er udviklet gennem research og markedsanalyser.",
+              "link": "",
+              "link_title": "Your link"
+            }
+          }
+        },
+        "block_order": [
+          "page-team-template-0",
+          "page-team-template-2",
+          "page-team-template-1",
+          "caf1c322-5187-4dbf-a42d-b8405b24cbae",
+          "5051cd8c-a080-411c-9474-39f1d02e0981",
+          "88b19669-4477-473e-85de-054e4cb7dfff",
+          "member_ynBzBA",
+          "522305b9-6218-4640-a38c-55e1dc8da3fa",
+          "member_EVPeHG"
+        ],
+        "settings": {
+          "image_edge_to_edge": false,
+          "show_image_overlay": false,
+          "color": "#ffffff",
+          "round_image": true
+        }
+      },
+      "contact-section": {
+        "type": "contact-section",
+        "settings": {
+          "show_contact_form": true,
+          "form_heading": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "articles_per_page": 12,
+          "highlight_first_article": false,
+          "show_tags": true,
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": true
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "1627634344a6be2a0e": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/frontp_cropped.png",
+          "image_position": "right",
+          "image_width": 45,
+          "title": "Velkommen til Rasmines eBits!",
+          "content": "<p>Hos os handler det ikke bare om hobby elektronik - det handler om at skabe en bevægelse. Vi brænder for at inspirere og uddanne vores kunder, så de kan blive de bedste elektronik makers, de kan være. Vi tror på, at det er gennem uddannelse og læring, at vi kan skabe en bæredygtig fremtid, og vi er fast besluttede på at være en del af den løsning. <\/p><p>Vores mission er at forbinde vores kunder gennem vores fællesskab og de bedste produkter og kurser, så de kan lære, eksperimentere og skabe en positiv indflydelse på verden. Vi er stolte af at være en del af den grønne omstilling og er passionerede omkring at levere produkter og løsninger, der er med til at reducere vores klimaaftryk. Vi er mere end bare en hjemmeside, vi er en bevægelse - og vi håber, at du vil slutte dig til os på vores mission om at skabe en bedre og mere bæredygtig fremtid.<\/p>",
+          "button_text": "Læs mere om os her",
+          "button_link": "shopify:\/\/pages\/om-os"
+        }
+      },
+      "162763439638a75784": {
+        "type": "judgeme_carousel_section",
+        "settings": {
+          "maxwidth": 1480
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Forsendelse"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Sender i udenfor Danmark?",
+              "answer": "<p>Ja! Vi sender udenfor Danmark.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "Hvor lang tid tager det før min ordre ankommer?",
+              "answer": "<p>Vi forsøger efter bedste evne at sende varer ud samme dag som vi modtager en bestilling. Da vi driver denne butik ved siden af vores fuldtidsarbejde kan der til tider godt gå et par dage før vi sender varen til dig. Fra varen er sendt går der normalt ikke mere end 2 hverdage før varen lander hos dig.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "Hvilke fragtfirmaer bruger i?",
+              "answer": "<p>Vi bruger alle større transportører og lokale fragtfirmaer. Du bliver bedt om at vælge en leveringsmetode under kassen.<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Produktet"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Kan jeg returnere mit produkt?",
+              "answer": "<p>Vi sigter altid efter at sikre, at vores kunder elsker vores produkter, men hvis du har brug for at returnere en ordre, hjælper vi gerne. Bare e-mail os direkte, og vi vil tage dig igennem processen.<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Andre spørgsmål"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "Har du spørgsmål?",
+              "answer": "<p>Du kan altid kontakte os via vores <a href=\"https:\/\/ebits-dk.myshopify.com\/pages\/kontakt\" title=\"https:\/\/ebits-dk.myshopify.com\/pages\/kontakt\">kontaktside<\/a>! Vi hjælper dig gerne. <\/p>"
+            }
+          },
+          "986e817b-7496-4de0-96e9-0c94ee218041": {
+            "type": "question",
+            "settings": {
+              "title": "Hvad betyder eBits?",
+              "answer": "<p>Det er baseret på en sjov sammensætning af \"bits\" som er byggeblokkene indenfor programmering, hver \"e\" i \"ebits\" står for elektronik.  Dermed elektroniske bits. :)<br\/>Navnet er skabt i takt med at vores mission, som er at levere nemme og praktiske elektronik byggeblokke til alle der hurtigt og effektivt vil udvikle tekniske løsninger. :)<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-7",
+          "page-faq-template-8",
+          "986e817b-7496-4de0-96e9-0c94ee218041"
+        ],
+        "settings": {
+          "show_contact_info": true,
+          "contact_info_heading": "Har du spørgsmål?",
+          "contact_info_text": "<p>Hvis vi stadig ikke har besvaret dit spørgsmål, kan du kontakte os nedenfor, så vender vi tilbage til dig hurtigst muligt.<\/p>",
+          "contact_1_icon": "bi-chat",
+          "contact_1_heading": "Kontakt os via Facebook Messenger chat",
+          "contact_1_text": "",
+          "contact_2_icon": "bi-email",
+          "contact_2_heading": "Eller brug vores kontaktformular",
+          "contact_2_text": ""
+        }
+      },
+      "blog-sidebar": {
+        "type": "blog-sidebar",
+        "blocks": {
+          "blog-sidebar-0": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Deltag i nyhedsbrev",
+              "content": "<p>Deltag i vores fællesskab og hold dig opdateret om teknologiske nyheder, guider og information<\/p>",
+              "subtext": "100% gratis. Afmeld når det passer dig!",
+              "background": "#15838c",
+              "text": "#ffffff"
+            }
+          },
+          "7560e583-7b22-48ae-87e7-9dcbb46b1933": {
+            "type": "featured_products",
+            "settings": {
+              "title": "Relevante produkter",
+              "product_1": "ts101-digital-loddekolbe-med-usb-c-forsyning",
+              "product_2": "ts80p-loddekolbe",
+              "product_3": "luksus-kolberenser"
+            }
+          },
+          "blog-sidebar-1": {
+            "type": "social_media",
+            "settings": {
+              "title": "Følg os",
+              "show_rss": false
+            }
+          }
+        },
+        "block_order": [
+          "blog-sidebar-0",
+          "7560e583-7b22-48ae-87e7-9dcbb46b1933",
+          "blog-sidebar-1"
+        ],
+        "settings": {
+          "show_on_mobile": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_category": false,
+          "show_author": true,
+          "show_date": true,
+          "show_share_buttons": true,
+          "show_tags": false,
+          "show_gravatar": true
+        }
+      },
+      "163231337271bd932f": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Deltag i nyhedsbrev",
+          "content": "<p>Deltag i vores fællesskab og hold dig opdateret om teknologiske nyheder, guider og information.<\/p>"
+        }
+      },
+      "1642847491c562287d": {
+        "type": "blog-posts",
+        "settings": {
+          "blog": "e-bits-blogs",
+          "blog_posts_count": 6,
+          "title": "Ebits-blogs",
+          "link_title": "Se alle",
+          "show_category": true,
+          "show_author": true,
+          "show_date": false,
+          "show_excerpt": false,
+          "stack_mobile": true
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "leg-og-laer",
+          "title": "Se alle vores nuværende elektronik til sjov og læring!",
+          "products_count": 4,
+          "layout": "vertical",
+          "stack_products": true,
+          "show_quick_buy": false,
+          "link_title": "Se alle",
+          "link_url": ""
+        }
+      },
+      "kids-sidebar": {
+        "type": "kids-sidebar",
+        "blocks": {
+          "83c035ef-cf36-4f17-a75c-7e0f9d480f1e": {
+            "type": "featured_products",
+            "settings": {
+              "title": "Elektronik til læring!",
+              "product_1": "robot-edderkop-med-app-kontrol",
+              "product_2": "4wd-mecanum-robot",
+              "product_3": "mini-tank-robot"
+            }
+          },
+          "kids-sidebar-0": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "title": "Join Us",
+              "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+              "subtext": "100% free, Unsubscribe any time!",
+              "background": "#1e2d7d",
+              "text": "#ffffff"
+            }
+          },
+          "kids-sidebar-1": {
+            "type": "social_media",
+            "disabled": true,
+            "settings": {
+              "title": "Follow us",
+              "show_rss": true
+            }
+          },
+          "8bff374a-3e0d-48d8-9b78-ca4eb12a0311": {
+            "type": "links",
+            "settings": {
+              "menu": "se-vores-udvalg-af-b-rneprodukter"
+            }
+          }
+        },
+        "block_order": [
+          "83c035ef-cf36-4f17-a75c-7e0f9d480f1e",
+          "kids-sidebar-0",
+          "kids-sidebar-1",
+          "8bff374a-3e0d-48d8-9b78-ca4eb12a0311"
+        ],
+        "settings": {
+          "show_on_mobile": true
+        }
+      },
+      "1ea36d2f-c776-4e8b-9694-36915175e085": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "udvalgte-bestsellers",
+          "title": "Vores bestsellere:",
+          "products_count": 40,
+          "layout": "collage",
+          "stack_products": true,
+          "show_quick_buy": false,
+          "link_title": "Se alle",
+          "link_url": "https:\/\/ebits.dk\/collections\/udvalgte-bestsellers"
+        }
+      },
+      "305c2a46-a38f-4177-998c-cff5ab91190a": {
+        "type": "slideshow",
+        "blocks": {
+          "301cc6d4-2265-4967-8e68-c0ecb0416d2f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Imaginarium_Consulting.png",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Har du bruge for hjælpe til dit elektronikprojekt?",
+              "content": "Vi tilbyder også konsultation til dig, som søger mere avanceret sparring og specialiseret rådgivning for at optimere jeres elektronikprojekt ved vores søstervirksomhed, Imaginarium Consulting!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læs mere hos vores søstervirksomhed",
+              "link": "https:\/\/www.imaginarium.consulting\/"
+            }
+          },
+          "f93bad8c-e449-4b2d-8155-a0e9bc5ed563": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/questionnairepit.png",
+              "mobile_image": "shopify:\/\/shop_images\/banner4.png",
+              "show_overlay": true,
+              "overlay_opacity": 80,
+              "text_color": "#ffffff",
+              "title": "Få 15% Rabat, Hvis du svarer på spørgeskema",
+              "content": "Hvad synes du om vores børneside?\nSvar på få spørgsmål for 15 % rabat på dit næste køb - detaljer i undersøgelsen!\nRabatten kan ikke anvendes til semesterkits",
+              "content_position": "middle_left",
+              "button_background": "#551c50",
+              "button_text_color": "#ffffff",
+              "button_text": "Klik her for at deltage",
+              "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSe_SLmcB4i-80aCzTop0mebAAlycxCPetZqRX1nv68uZT4krw\/viewform?usp=sf_link"
+            }
+          },
+          "9f658111-f1c1-45ee-afe4-85341b33ed71": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DALL_E_2023-11-08_11.31.03_-_Photo_of_a_spacious_modern_electronics_classroom_with_about_10_students_all_aged_40_and_above_of_various_genders_and_descents._The_students_are_enga.png",
+              "show_overlay": true,
+              "overlay_opacity": 80,
+              "text_color": "#ffffff",
+              "title": "Elektronik Kursus - Forår 2024",
+              "content": "Vil du gerne udforske elektronikkens verden? \nKom og dyrk din passion, udvid dine færdigheder og skab teknologiens fremtid med vores elektronikkursus.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/pages\/elektronik-kursus"
+            }
+          },
+          "305c2a46-a38f-4177-998c-cff5ab91190a-1682491455c5b86320-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cropped_554c5743-bd1b-4822-ad61-d7090cb83260.png",
+              "mobile_image": "shopify:\/\/shop_images\/4.png",
+              "show_overlay": true,
+              "overlay_opacity": 96,
+              "text_color": "#ffffff",
+              "title": "Velkommen til Rasmines eBits!",
+              "content": "Hos os handler det ikke bare om hobby elektronik - det handler om at skabe en bevægelse. Vi brænder for at inspirere og uddanne vores kunder, så de kan blive de bedste elektronik makers, de kan være.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læs mere om os here",
+              "link": "https:\/\/ebits.dk\/pages\/om-os"
+            }
+          },
+          "b0663f6f-ea70-498d-96db-b4f3e95a0f71": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/father-son-making-robot2.png",
+              "mobile_image": "shopify:\/\/shop_images\/father-son-making-robot_3.png",
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "text_color": "#ffffff",
+              "title": "At undervise børn i elektronik",
+              "content": "Udvikle børns intelligens\nTræn børns praktiske evner",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Se elektronik til læring",
+              "link": "shopify:\/\/pages\/elektronik-til-born"
+            }
+          },
+          "0da08a95-9659-47c8-a0fa-09c3103f5e68": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sunflower-g8e19c7fd0_1280.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Butikken holder sommerferie",
+              "content": "eBits holder sommerferie frem til d. 4\/8, hvor ordre vil blive afsendt som normalt fra d. 5\/8. Rigtig god sommer!",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
+          },
+          "cfb295c6-7ea6-472b-b1ea-875f0367caad": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/subBlogThumb6_1000x_fa5654a8-7666-4b16-93f4-7e67410db9be.webp",
+              "mobile_image": "{{ shop.brand.cover_image }}",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Gas Sensor & ESP32",
+              "content": "Velkommen til vores sidste blogindlæg i denne serie, hvor vi dykker ned i spændende verden af luftkvalitetsmåling ved hjælp af MQ135 gas sensoren og ESP32. Luftforurening er en voksende bekymring i vores moderne samfund, og det er vigtigt at overvåge luftkvaliteten for at beskytte vores sundhed og miljø.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læs mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/gas-sensor-esp32"
+            }
+          },
+          "32d5d54b-1665-433c-bd11-0cc2c1b4d04c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/subBlogThumb5_1000x_6b7abf10-f194-4ac9-a199-fa0b5a72839c.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Joystick & Display",
+              "content": "Hej og velkommen tilbage til vores elektronik-blogserie! I denne blog udforsker vi et praktisk projekt, hvor vi bruger et joystick til at skrive og redigere tekst på et LCD-display. Dette er en interaktiv måde at lære grundlæggende elektronik og programmering på. Velkommen til vores elektronik-blogserie!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/joystick-display"
+            }
+          },
+          "ed6de46a-7092-4ffb-98ce-61c758418d31": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/subBlogThumb4_1000x_73821f4d-a5f7-4ffb-91ae-b26b787ad3db.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Ultrasound og Display",
+              "content": "Velkommen til den fjerde blog i vores Arduino-blogserie! Denne gang skal vi arbejde med en ultrasound sensor og et grafisk LCD-display for at skabe en enhed, der kan måle afstand og vise den på displayet.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/ultrasound-og-display"
+            }
+          },
+          "b67f5dcc-a6f5-4f8c-b846-c1c510557e75": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/subBlogThumb3_1000x_079a628c-cd1e-4670-b670-1d497386d43c.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Photoresistor og Buzzer",
+              "content": "Velkommen til den tredje og endnu en spændende Arduino-blog i serien! I dag vil vi udforske en spændende måde at kombinere lys og lyd i vores Arduino-projekt. Vi vil lære at aktivere en buzzer ved hjælp af en photoresistor, der registrerer ændringer i lysintensiteten.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/photoresistor-og-buzzer"
+            }
+          },
+          "cbce9809-3ca1-454d-a952-7258ebdf84a1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/subBlogThumb2_1000x_f9a2e167-924e-4311-b4bc-1f1d192ffdcf.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Servo og Potentiometer",
+              "content": "Velkommen til vores anden blog i denne serie, der handler om at styre en servo med et potentiometer! I denne guide vil vi udforske spændende muligheder med Arduino og lære, hvordan vi kan bruge et potentiometer til at kontrollere bevægelsen af en servo.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/servo-og-potentiometer"
+            }
+          },
+          "4733767d-026d-4266-bb3e-101728bed85d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/subBlogThumb1_1000x_270bdce6-57cc-4af5-87a1-bc4531d11962.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Lys og lyd",
+              "content": "Velkommen til vores spændende rejse ind i elektronikkens verden! I denne første blog i vores serie vil vi tage dig med på en interaktiv og hands-on oplevelse, hvor du vil lære at forvandle lyd til lys ved brug af en Arduino og nogle få andre komponenter.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/lys-og-lyd"
+            }
+          },
+          "4f7379cc-17e1-4c92-9fb0-df37f9694227": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ESPHome_thumb_1000x_d888b0fe-75ec-4e60-a5bd-7fc6b32d4adc.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Weixin_Image_20230926093057.png",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#fafafa",
+              "title": "ESPHome - Gør dit hjem smartere!",
+              "content": "ESPHome er et open source-projekt, der giver dig mulighed for hurtigt at bygge brugerdefinerede smart home-løsninger baseret på mikrocontrolleren ESP8266 eller ESP32, uden behov for store programmeringsevner.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esphome-kom-godt-i-gang-og-gor-dit-hjem-smartere"
+            }
+          },
+          "76607982-f878-4eb0-a112-40e29a63ee19": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ESPHome_thumb_eng_1000x_46f18edd-19cd-4fcb-8e97-0d24dfce0013.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Weixin_Image_20230926093423.png",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "ESPHome - Getting started with your Smart Home",
+              "content": "ESPHome is a open source project that allows you to quickly build custom smart home solutions based on the microcontroller ESP8266 or ESP32, without the need to be a coding master. So creating your own home project has never been easier than it is with ESPHome.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#fafafa",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esphome-getting-started-with-your-smart-home"
+            }
+          },
+          "cb08a69c-4291-4590-a414-bbe73e3ebd16": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mikrocontroller_thumb_1000x_bc323fd6-ce81-45d0-8ed3-2a0392717e76.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Weixin_Image_20230926093924.png",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Mikrocontroller - en mini computer?",
+              "content": "Mikrocontrolleren er som et tomt lærred, hvor du kan implementere dine ideer til alverdens gadgets eller til at programmere små sjove spil.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/microcontroller-en-mini-computer"
+            }
+          },
+          "336040f7-cabd-4099-b983-eeba9cf7e284": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/signalbehandling_thumb_1000x_a5fc7b41-ba4a-4bd6-9170-28d1ff5636dc.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduktion til Signalbehandling",
+              "content": "Et signal kan være enhver form for information, der formidler mening, såsom lyd, billeder eller andre data - ja, endda røgsignaler.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/introduktion-til-signalbehandling"
+            }
+          },
+          "c48cfbd7-be1d-4612-954f-2ea93faf33ee": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/H-bro_DCMotor_thumb_1000x_510db114-e118-452d-b981-075517113911.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "En H-Bro og en DC Motor - En God Kombi!",
+              "content": "Denne blog udforsker H-broen, et vigtigt værktøj til at styre DC-motorer i begge retninger. Vi forklarer teorien bag H-broen og viser en praktisk demonstration af kredsløbet og kodens implementering.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/en-h-bro-og-en-dc-motor-what-a-match"
+            }
+          },
+          "9dcb8695-a15a-4571-8e19-a44dbd414a1e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HDC_eng_Thumb_1000x_0e4c023c-2198-4438-b01e-0cf17e2893b0.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "An h-bridge and a DC motor - A Great Duo!",
+              "content": "This blog explores the H-bridge, an essential tool for controlling DC motors in both directions. We explain the theory behind the H-bridge and provide a practical demonstration of the circuit and code implementation.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/an-h-bridge-and-a-dc-motor-what-a-felicitous-match"
+            }
+          },
+          "1b382c53-95fc-4f28-8981-285deefc7ab2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/power_electronics_thumb_1000x_91442734-a8dc-4fd1-962e-c7bc255c3a0a.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Vigtigheden af Power Electronics",
+              "content": "Power electronics er den gren af ​​elektroteknik, der beskæftiger sig med behandling af spændinger og strømme for at levere strøm, der understøtter en række forskellige behov. Dette omfatter alt fra husholdningselektronik til udstyr i rumapplikationer.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/vigtigheden-af-power-electronics"
+            }
+          },
+          "7c3f4247-ac21-4df7-a549-95ffad662cd8": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Automatic_trash-bot_1000x_69a24ac5-a8e6-4a30-92b6-deb5ae0c23df.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Automatic trash-bot",
+              "content": "Everything's getting smarter right? So why not your trash bin? This trash bin opens and closes its lid if it sees anything in front of it. You just need to go closer to it and it'll open automatically and will wait for you to feed it then after a certain time it'll close automatically.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/automatic-trash-bot"
+            }
+          },
+          "d63511a4-c291-435f-b31c-6551083e66f1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/digitale_kredslob3_thumb_1000x_ce32b9bd-7001-4ada-8617-fc73171b36c7.webp",
+              "mobile_image": "shopify:\/\/shop_images\/digitale_kredslob3_thumb_1000x_ce32b9bd-7001-4ada-8617-fc73171b36c7.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduktion til Digitale Kredsløb",
+              "content": "Computere tænker på en lidt sjov måde. De tænker binært, så det eneste, de tænker på, er 0'er og 1-taller. I forbindelse med digitale kredsløb refererer binær til et system til repræsentation af information eller data ved hjælp af kun to mulige værdier eller tilstande. Disse værdier er typisk repræsenteret som 0 og 1, hvilket svarer til tilstandene \"off\" og \"on\" i et digitalt kredsløb",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/introduktion-til-digitale-kredslob"
+            }
+          },
+          "ba701d69-6476-4cb8-b88e-a3ede95700a6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Analoge_kredslob_thumb_1000x_187052e2-9da7-431c-becc-d19a3944bede.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Analogt kredsløb - hvad er det?",
+              "content": "De fleste elektroniske enheder i dag fungerer med både analoge og digitale komponenter. Vi vil fokusere på det analoge aspekt i denne blog. Så hvad betragtes som analogt, og hvad betragtes som digitalt?",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/analogt-kredslob-hvad-er-det"
+            }
+          },
+          "f9630c57-4dce-438c-9e99-7708111f31fc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kredslobssimulator_thumb_1000x_3912324a-b21f-45d0-b8ba-19e21b5eb267.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Kredsløbssimulator - introduktion til LT-Spice",
+              "content": "Så du vil udvikle dit første kredsløb? Tid til at lære at simulere! Evnen til at simulere kredsløb er et vigtigt værktøj for elektronikproducenter, da det gør det muligt for os at teste og analysere vores design, før vi begynder at bygge prototyper.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/simuler-dine-kredslob-ltspice"
+            }
+          },
+          "0a7f3ac3-f313-4bcb-833e-422a0c5e4178": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/pcb_DESIGN_THUMB_1000x_02182470-f8b2-4f99-9a87-136c6e298cbb.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "PCB DESIGN - Hvad er det?",
+              "content": "Evnen til at designe og fremstille printkort (PCB) er afgørende for elektronikproducenter, da det gør det muligt for dem at skabe kompakte og pålidelige elektroniske enheder.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/pcb-design-hvad-er-det"
+            }
+          },
+          "91c1f4f1-ed5f-4fec-a68e-4f51ae193795": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ELEKTROmagnetisme_thumb_1000x_508e0182-7bb7-4243-b3dc-0af0a16cc174.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduktion til Elektromagnetisme",
+              "content": "Hvad er elektromagnetisk teori egentlig? Er det studiet af magisk, usynlig og super cool energi? Tjo, på en måde! Så hvad er det godt for? I denne blog vil vi udforske denne lokkende magi for at få en forståelse af, hvad det egentlig er.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/elektromagnetisme"
+            }
+          },
+          "849a0dfb-0cfd-40b5-b343-22a24817f1eb": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Interfacing_thumb_1000x_ba9fcf20-e2c5-4caa-ab8b-2540486d11b7.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Interfacing - kommunikation uden grænser",
+              "content": "Forståelse af grænsefladeteknikker, herunder kommunikationsprotokoller, dataoverførselsmetoder og enhedsdrivere, er afgørende for, at elektronikproducenter kan forbinde deres enheder til andre systemer. Uden electronic interfacing kunne intet elektronik kommunikere med hinanden, og det er bare så utroligt trist. Så vi må hellere se om vi ikke kan hjælpe dem!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/interfacing-kommunikation-uden-graenser"
+            }
+          },
+          "b88ba34b-ea7e-42ba-bf2c-7837623ca15b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Analog_circuits_1__thumb_1000x_9377a559-5d76-41cc-ac1c-d078399f3c63.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Analog Circuit - what is it?",
+              "content": "Most electronic devices today work with analog and digital components working together. We will focus on the analog aspect in this blog.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/analog-circuits-what-is-it"
+            }
+          },
+          "b46e7ade-203b-467b-ae66-e57b98ab5af1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DIGITAL_CIRCUITS_thumb_1000x_e09a216d-3aac-4e3b-afd4-331367312ed9.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduction to Digital Circuit Design",
+              "content": "Computers think in a kinda funny way. They think binary so the only thing on their mind are 0’s and 1’s. In the context of digital circuits, binary refers to a system of representing information or data using only two possible values or states. These values are typically represented as 0 and 1, which correspond to the states of \"off\" and \"on\" in a digital circuit.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/digital-circuit-design"
+            }
+          },
+          "3172bffd-ffbc-49f8-8c30-8c1a448f257e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/el_thumb_1000x_1d7a67f5-fbfb-4739-8643-1fec0c0cc3fd.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduction to Electromagnetic Theory",
+              "content": "What is electromagnetic theory anyway? Is it the study of magical, invisible and super cool energy? Well, it kinda is! So what‘s it any good for? In this blog we are going to explore this alluring black magic to get an understanding of what it actually is.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/introduction-to-electromagnetic-theory"
+            }
+          },
+          "417e64fd-ff0f-4428-83e1-0dcc78be8453": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Interface_thumb2_1000x_f9fb50bf-cd18-4850-88eb-5048bd86671d.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Interfacing",
+              "content": "I’ve discovered something amazing - we are stronger together. And so are electronics! How do you heighten the quality of communication between two parts that hardly understand each other? Worry no more for we will explore some of the answers. It’s all about interfacing!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/interfacing"
+            }
+          },
+          "68db8c08-7e29-4b9e-a0a4-33e2eb194e79": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Power_conversion_1000x_b2330bcb-c0fd-4151-9bda-fead2884a9b4.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Power Electronics!",
+              "content": "Power electronics is the branch of electrical engineering that deals with the processing of voltages and currents to deliver power that supports a variety of needs. This includes everything from household electronics to equipment in space applications.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/power-electronics"
+            }
+          },
+          "aa5735db-ceb5-4e23-a75b-e294cb40c5af": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PCB_thumb_1000x_ee26b96f-5c85-46c7-b78c-800986a8249a.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "PCB Design - what is it?",
+              "content": "The ability to design and manufacture printed circuit boards (PCBs) is critical for electronics makers, as it enables them to create compact and reliable electronic devices.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/pcb-design-what-is-it"
+            }
+          },
+          "d302d7dc-8ce3-4151-acb8-350321c813d2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Circuit_simulation_thumb_1000x_71eee19c-52b2-4b55-b685-5788f598358b.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Circuit Simulation - introducing LTspice",
+              "content": "So you want to develop your first circuit? Time to learn how to simulate! The ability to simulate circuits is an important tool for electronics makers, as it enables them to test and analyze their designs before building prototypes.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/circuit-simulation"
+            }
+          },
+          "647a2d65-f359-48b6-8dc4-dde9473aaf7d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-4709371_1000x_6bce1a41-1b64-4c84-b2bf-7f57981a96c8.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Hvorfor selv lave elektronik?",
+              "content": "Elektronik er en utrolig passionerende og spændende hobby, der med garanti vil tænde ilden af ​​kreativitet og innovation i dig. Verden af ​​elektronik er enorm og varieret, men en af ​​de mest fantastiske ting ved den er de uendelige muligheder, den rummer. Uanset om du er nybegynder eller erfaren hobbyist, er elektronikkens verden altid klar til at tage imod dig med åbne arme.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/hvorfor-selv-lave-elektronik"
+            }
+          },
+          "c2834798-a95f-4a00-97ef-04f5f3b750d8": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Company_Profile_1000x_01f69180-9cd7-434c-a0c4-7296e8ddc4d5.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Solsporingsrobot - Oplad telefonen helt gratis!",
+              "content": "Utrolig sej solsporingsrobot fra Keyestudio som tilbyder masser af underholdning, men ikke mindst også læring! Robotten er nem og samle og giver en god forståelse af opkobling af sensorer og aktuatorer til en Arduino.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/solsporingsrobot"
+            }
+          },
+          "37d72f1e-569e-426f-8bfa-473372f8c59b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FQJR2JIK9R2MCLV_1000x_bca89b75-2430-4347-8587-4531150c60f4.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "ESP32 - Astronaut ur",
+              "content": "Er du rumentusiast? Hvis ja, så se med her! Dette projekt er et ur bestående af en RGB-LED, som vil lyse op så snart en ny astronaut er kommet op i rummet.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esp32-astronaut-ur"
+            }
+          },
+          "292a25d0-b1c4-48ac-9d85-3e28072be3b8": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/F5AQ6Z3L5ZC0KVT_1000x_5a3394a9-d8af-46e3-9c60-99a424dcb96c.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Raspberry Pi Pico - Gør din plante til kæledyr!",
+              "content": "Her kan du få en potte til din plante der sikre sig at din plante har det som blommen i et æg. Den fortæller dig nemlig med emoji's alt efter om den mangler vand, mangler lys eller meget andet.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/raspberry-pi-pico-gor-din-plante-til-kaeledyr"
+            }
+          },
+          "7b365302-0e14-4082-bfad-c79477065cfa": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/close-up-electronic-circuit_1000x_bbdf5b9a-d31f-47b8-af33-f8c49926f32e.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "SMD lodning quickguide!",
+              "content": "Lodning af overflademonteringskomponenter (SMD'er) kan være udfordrende, især for dem, der er nye til elektronik. Men med lidt øvelse og det rigtige værktøj er det muligt at producere højkvalitets loddesamlinger til SMD-komponenter.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/smd-lodning-quickguide"
+            }
+          },
+          "fee29382-90d7-481d-a191-206ae599fb45": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kredslobsanalyse_1080_x_1080px_3_1000x_1517893e-1aeb-4881-be04-a91d2203a90c.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduktion til kredsløbsanalyse",
+              "content": "Har du tænkt på føre dine helt egne Arduino, ESP32 eller Raspberry Pi idéer ud i livet? Så vil en smule kredsløbsanalyse helt sikkert hjælpe dig på vej!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/introduktion-til-kredslobsanalyse"
+            }
+          },
+          "98c721cc-7cab-4b00-a638-2aa1cd1c9166": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Circuit_Analysis_1_1000x_63876891-5af7-4289-842f-6e2a417606d0.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Introduction to circuit analysis",
+              "content": "Have you thought about bringing your very own Arduino, ESP32 or Raspberry Pi ideas to life? Then a bit of circuit analysis will definitely help you on your way! Electronics can seem like pure magic but with some effort and a little circuit theory, you’ll develop your first electronics project in no time!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/introduction-to-circuit-analysis"
+            }
+          },
+          "09321f9b-80f9-466b-8557-ca3587b22068": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SIGNAL_PROCESSING_thumbnail_1000x_8204b915-e429-4bb7-a897-4452a6a47d1d.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Signal Processing",
+              "content": "Signal processing is like deciphering invisible hieroglyphs. It involves manipulating, analyzing, and interpreting signals in electronic systems. Signals can be any meaningful information, like sound, images, or data. Signal processing uses math and techniques for tasks like filtering, compression, enhancement, and recognition.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/signal-processing"
+            }
+          },
+          "15fd56da-f69a-4a64-86b3-523698f9fe8c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/you_1000x_9280093b-c846-4b31-8a5e-e5527aa13d8b.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "En hver koks yndlingsværktøj!",
+              "content": "Har du også altid problemer med at du sætter vandet over for at koge og derefter glemmer det fuldstændigt, fordi du bliver opslugt af noget andet i mellemtiden ? - Så er her løsningen på dine problemer!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/julegaven-til-mor"
+            }
+          },
+          "9b448ac4-4950-487b-b4c1-78a765e7267e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/esp32webradio_900x_b6aac12e-e1ed-4829-af75-95a65951cb46.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "ESP32 - Mini Web Radio",
+              "content": "Vi faldt for nyligt over dette sjove lille projekt, der gør det muligt at lave en mini web radio med en ESP32, samt en håndfuld af produkter vi sælger her på siden.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esp32-mini-web-radio"
+            }
+          },
+          "df543359-31e7-4b29-b83d-a76f9dc113ac": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Er_du_den_nye_Usain_Bolt_1_1000x_f971f400-1016-4a0a-9424-ae056a52c5b7.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Bliv den nye Usain Bolt |Sprint tracker|",
+              "content": "Skal du være den næste Usain Bolt ? - så se med her! Dette projekt omhandler et fedt projekt der kan måle hvor hurtigt du kan løbe 50, 100, 150 .... eller 500 meter. Det eneste du skal bruge er en ESP TTGO, Ultrasonisk sensor og et par knapper fra komponent mega kit.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/bliv-den-nye-usain-bolt"
+            }
+          },
+          "781c8619-3320-4ea9-be1d-8fadee84c633": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/montage-copy-space-wooden-table-blurred-kids-playroom-background-kindergarten-3d-rendering_22724291.png",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Mini Tank Robot V3",
+              "content": "Utrolig sej Mini Tank Robot fra Keyestudio som tilbyder masser af underholdning, men ikke mindst også læring! Det er nemlig muligt at programmere den med Arduinos IDE men også mixly.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/mini-tank-robot-v3"
+            }
+          },
+          "e2d153dc-33e7-4dbd-b729-729c52541547": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FBFYEBUL8FXA4KT_800x_34ea0765-17fa-422b-809a-a8f8fd015c34.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "ESP32 - Vejrstation",
+              "content": "Vi faldt for nyligt over dette måske mere omfattende projekt, nemlig en fuldt funktionel vejrstation!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esp32-vejrstation"
+            }
+          },
+          "05facbac-bfb1-424f-9b0f-48dfd8219215": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FBOIA34KD7DS5S3_kopi_600x_2959ed54-b386-4513-a7dd-14e4483413d4.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "ESP32 - Fremmøde system",
+              "content": "Et fremmøde system\/stempelur vi ikke kunne stå for, med meget få komponenter kan du lave dit eget fremmøde system\/stempelur.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esp32-fremmodesystem"
+            }
+          },
+          "b574e4b9-6b9a-400e-8d5f-096305486ea9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ESP8266_2_1_1000x_be9a67aa-07da-41d4-a218-3c7302a893d3.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Mailbox Alerter",
+              "content": "Are you tired of checking your postbox everyday for letters? Then you are in the correct place to learn how to make your own postbox alert module.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/mailbox-alerter"
+            }
+          },
+          "dbf9117a-9995-4739-90fa-940d5feb86de": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/XY-UDP_1000x_6a65f539-f606-4623-a9e3-7731debda47e.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "XY-UDP | Lille smart Strømforsyning!",
+              "content": "XY-UDP USB-drevet strømforsyning tilbyder en masse utrolig fede features, som ofte kun ses i store professionelle strømforsyninger. Det gør det som ejer af en XY-UDP strømforsyning utrolig nemt at kunne levere den ønskede spænding og strøm til netop dine projekter.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/xy-udp"
+            }
+          },
+          "484e515e-7b18-4330-9eb4-f78fab798045": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Vin_1000x_9180ae04-c2e1-4efd-8b62-4ca994758a4b.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Spændingsdeler - delkredsløbet en hver hobbyist skal kende til!",
+              "content": "Når man som elektronik hobbytist kaster dig ud i projekter med sensorer og forskellige mikrokontroller platforme, kan man støde på at operations spændingerne mellem komponenterne ikke altid er ens. Måske kører en Raspberry Pi på 3.3V og sensoren kører på 5V. Her kommer spændingsdeleren ind i billedet. Det er redningsmanden som kan skabe en bro mellem komponenter og mikrocontrollere.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/spaendingsdeler"
+            }
+          },
+          "cdf29a98-16ac-4763-96fe-0ef93fb5db20": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Pull_up_down_modstande_1000x_8f9f71c7-f09e-4255-9121-e683b2ac5d9a.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Pull-up- & Pull-down modstande, ganske enkelt et helt uundværligt værktøj!",
+              "content": "Denne artikel har til formål at beskrive og illustrere eksempler på anvendelse af pull-up og pull-down modstande og ligeledes vise hvad der kan ske hvis der ikke anvendes en sådan modstand.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/pull-up-pull-down"
+            }
+          },
+          "8f526f44-a363-48d1-a359-8d69d3b28757": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/thumbnail2_1000x_3baf0211-c466-4afa-b6ee-2c86e254bccf.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "School Arrival Notifier",
+              "content": "Want to know when your child has arrived safely at home or school? Now you have the chance to build a tag for your child, just with two components. Yes, it is possible to make it at home, and be able to receive notifications about events via your smartphone. How cool is that!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/school-arrival-notifier"
+            }
+          },
+          "e63dd2f7-56b4-49cf-8eba-e5d58b3d6660": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Article1Thumbnail_1000x_cecad1c4-78c4-497c-bcf9-0fa43d3d596e.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Overtake Alert System",
+              "content": "This project can help with this problem by building an overtake warning system that will use an ultrasonic sensor to track incoming cyclists that plan to overtake you from the side, and it will use a vibration motor which will vibrate to warn you when this unannounced overtake is taking place",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/overtake-alert-system"
+            }
+          },
+          "5037453c-20a1-433b-97e2-d10c0d5e60fc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ESP32_Sensorer_-2_1000x_ad418188-87b9-4b33-ad51-4e99a6d714bd.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "RED PLANTERNE MED ESP32 & IFTTT!",
+              "content": "Kan du også formå at slå selv en kaktus ihjel? - så se med her! Dette lille projekt  kan sikre dig, at din plante derhjemme ikke visner fordi du glemmer at vande den.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "shopify:\/\/blogs\/e-bits-blogs\/esp32-ifttt"
+            }
+          },
+          "16406190-2cc4-40de-b1ac-9d246894ad73": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ESP32_Sensorer_-3_1000x_63ef8f12-6747-4b52-ad41-688b923b66aa.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Opsætning af ESP32 til Arduino IDE & Platform IO IDE",
+              "content": "Denne artikel giver vejledning i, hvordan man opsætter ESP32 til Arduino IDE og Platform IO IDE.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/esp32"
+            }
+          },
+          "3c460194-c6c6-4f0d-8ca7-8af7e929d52b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/USB_Stromforsyning-2_1000x_ac6d8484-e3c7-471f-be83-f71713d8bb7a.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "ZK-DP3D | USB drevet strømforsyning",
+              "content": "ZK-DP3D USB drevet strømforsyning tilbyder en masse utrolig fede features, som ofte kun ses i store professionelle strømforsyninger. Det gør det som ejer af en ZK-DP3D strømforsyning utrolig nemt at kunne levere den ønskede spænding og strøm til netop dine projekter.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/guide-til-zk-dp3d-usb-drevet-stromforsyning"
+            }
+          },
+          "378bc7a1-02ef-408d-b0f4-dcbdaa447fda": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/USB_Stromforsyning_1_1000x_25749115-c4de-4d2c-9206-e549725bbd25.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Ohms Lov | Hvordan spænding, strøm og modstand hænger sammen",
+              "content": "I 1827 formulerede fysiker og matematikeren Georg Simon Ohm, hvad vi i dag kender som Ohms lov. Den kan groft sagt betegnes som ”grundloven” for elektricitet og elektronik. Ohms Lov giver er sammenhængen mellem spændingen V den kraftkilde der bringer en strøm I af elektroner til at bevæge sig i en given retning med modstanden R som proportionalitet.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/ohms-lov"
+            }
+          },
+          "538a9090-585a-401d-948d-93f40064b1fc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Loddetips_Thumbnail_1000x_a8c3cbc6-a498-472a-bca3-2aadab1dfd26.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Lodning | Den ultimative loddeguide!",
+              "content": "Denne artikel handler om lodning, en proces til at forbinde metalstykker ved hjælp af loddetin og flux. Den diskuterer også typer af loddekolber, god loddeskik og hvordan man undgår kolde lodninger. Vedligeholdelse af loddekolben og teknologier som THT, SMT og SMD omtales også.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/koger"
+            }
+          },
+          "b044319e-e60b-448e-bfeb-938bdc93a79e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/MicroPython_pa_ESP32_1000x_7b21708d-9122-4389-a0f7-f638d21a1e6c.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "MicroPython",
+              "content": "MicroPython er let og hurtig at implementere. Det er ikke helt så lav-niveau som C,C++ og Arduino. Det betyder at din kode er mere intuitiv og hurtigere at skrive. Omvendt vil man med MicroPython aldrig opnå kode der er så let og hurtig for processor og hukommelse som man kan med C og C++.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/micropython"
+            }
+          },
+          "2406e6da-41ff-4a77-8c05-b94e02f2baec": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Solar_Energy_cryptomining_1000x_c50e6405-95fe-425b-b4c3-fbae19023833.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "Soldrevet mining af Kryptovaluta!",
+              "content": "Har du de seneste år hørt om Kryptovaluta ? - nu har du mulighed for at bygge en lille krypto-miner selv, som er soldrevet! Ja du læste rigtigt. På en lille weekend kan du allerede have minet dine første kryptovaluta!",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/duino-coin"
+            }
+          },
+          "d7e9a47f-db40-416a-9d4c-21ca7ff66c66": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lod_pa_farten_600x_b94723e6-f39c-4a91-8b6a-4fa0b4a3bf55.webp",
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "text_color": "#ffffff",
+              "title": "TS80P - Lodninger selv på farten?!",
+              "content": "Lodninger selv på farten?! Ja det er simpelthen en mulighed med loddekobler fra Miniware. Miniware har skabt hvad man kalder for smart loddekolber, som tilbyder stor fleksibilitet i hvor man kan lave lodninger henne.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "Læse mere",
+              "link": "https:\/\/ebits.dk\/blogs\/e-bits-blogs\/ts80p-loddekolbe"
+            }
+          }
+        },
+        "block_order": [
+          "301cc6d4-2265-4967-8e68-c0ecb0416d2f",
+          "f93bad8c-e449-4b2d-8155-a0e9bc5ed563",
+          "9f658111-f1c1-45ee-afe4-85341b33ed71",
+          "305c2a46-a38f-4177-998c-cff5ab91190a-1682491455c5b86320-0",
+          "b0663f6f-ea70-498d-96db-b4f3e95a0f71",
+          "0da08a95-9659-47c8-a0fa-09c3103f5e68",
+          "cfb295c6-7ea6-472b-b1ea-875f0367caad",
+          "32d5d54b-1665-433c-bd11-0cc2c1b4d04c",
+          "ed6de46a-7092-4ffb-98ce-61c758418d31",
+          "b67f5dcc-a6f5-4f8c-b846-c1c510557e75",
+          "cbce9809-3ca1-454d-a952-7258ebdf84a1",
+          "4733767d-026d-4266-bb3e-101728bed85d",
+          "4f7379cc-17e1-4c92-9fb0-df37f9694227",
+          "76607982-f878-4eb0-a112-40e29a63ee19",
+          "cb08a69c-4291-4590-a414-bbe73e3ebd16",
+          "336040f7-cabd-4099-b983-eeba9cf7e284",
+          "c48cfbd7-be1d-4612-954f-2ea93faf33ee",
+          "9dcb8695-a15a-4571-8e19-a44dbd414a1e",
+          "1b382c53-95fc-4f28-8981-285deefc7ab2",
+          "7c3f4247-ac21-4df7-a549-95ffad662cd8",
+          "d63511a4-c291-435f-b31c-6551083e66f1",
+          "ba701d69-6476-4cb8-b88e-a3ede95700a6",
+          "f9630c57-4dce-438c-9e99-7708111f31fc",
+          "0a7f3ac3-f313-4bcb-833e-422a0c5e4178",
+          "91c1f4f1-ed5f-4fec-a68e-4f51ae193795",
+          "849a0dfb-0cfd-40b5-b343-22a24817f1eb",
+          "b88ba34b-ea7e-42ba-bf2c-7837623ca15b",
+          "b46e7ade-203b-467b-ae66-e57b98ab5af1",
+          "3172bffd-ffbc-49f8-8c30-8c1a448f257e",
+          "417e64fd-ff0f-4428-83e1-0dcc78be8453",
+          "68db8c08-7e29-4b9e-a0a4-33e2eb194e79",
+          "aa5735db-ceb5-4e23-a75b-e294cb40c5af",
+          "d302d7dc-8ce3-4151-acb8-350321c813d2",
+          "647a2d65-f359-48b6-8dc4-dde9473aaf7d",
+          "c2834798-a95f-4a00-97ef-04f5f3b750d8",
+          "37d72f1e-569e-426f-8bfa-473372f8c59b",
+          "292a25d0-b1c4-48ac-9d85-3e28072be3b8",
+          "7b365302-0e14-4082-bfad-c79477065cfa",
+          "fee29382-90d7-481d-a191-206ae599fb45",
+          "98c721cc-7cab-4b00-a638-2aa1cd1c9166",
+          "09321f9b-80f9-466b-8557-ca3587b22068",
+          "15fd56da-f69a-4a64-86b3-523698f9fe8c",
+          "9b448ac4-4950-487b-b4c1-78a765e7267e",
+          "df543359-31e7-4b29-b83d-a76f9dc113ac",
+          "781c8619-3320-4ea9-be1d-8fadee84c633",
+          "e2d153dc-33e7-4dbd-b729-729c52541547",
+          "05facbac-bfb1-424f-9b0f-48dfd8219215",
+          "b574e4b9-6b9a-400e-8d5f-096305486ea9",
+          "dbf9117a-9995-4739-90fa-940d5feb86de",
+          "484e515e-7b18-4330-9eb4-f78fab798045",
+          "cdf29a98-16ac-4763-96fe-0ef93fb5db20",
+          "8f526f44-a363-48d1-a359-8d69d3b28757",
+          "e63dd2f7-56b4-49cf-8eba-e5d58b3d6660",
+          "5037453c-20a1-433b-97e2-d10c0d5e60fc",
+          "16406190-2cc4-40de-b1ac-9d246894ad73",
+          "3c460194-c6c6-4f0d-8ca7-8af7e929d52b",
+          "378bc7a1-02ef-408d-b0f4-dcbdaa447fda",
+          "538a9090-585a-401d-948d-93f40064b1fc",
+          "b044319e-e60b-448e-bfeb-938bdc93a79e",
+          "2406e6da-41ff-4a77-8c05-b94e02f2baec",
+          "d7e9a47f-db40-416a-9d4c-21ca7ff66c66"
+        ],
+        "custom_css": [
+          "@media screen and (min-width: 1000px) {.slideshow {height: 550px; } .slideshow__slide-inner {background-size: cover; background-position: center -15px; }}"
+        ],
+        "settings": {
+          "edge_to_edge": false,
+          "section_size": "large",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 8
+        }
+      },
+      "7963e800-8105-4b01-b48b-d69c33eb56fd": {
+        "type": "custom-html",
+        "disabled": true,
+        "custom_css": [
+          "#container {padding: 0 15%;}",
+          "#center {float: left; width: 100%; text-align: center;}",
+          "p {width: 100%; text-decoration: none; color: Black; font-size: 1.5e;}",
+          "a {text-decoration: none; border: 0.2px solid #000; color: white; background: #551c50; padding: 10px; float: center; white-space: nowrap;}",
+          "#left {padding-left: 30px; width: 20%; float: left; margin-left: -100%; position: relative; left: -200px;}",
+          "#right {padding-left: 20px; width: 15%; float: right; margin-right: -150px;}"
+        ],
+        "settings": {
+          "title": "",
+          "html": "<div id=\"container\">\n    <div id=\"center\">\n\n<h3>Få 15% Rabat, Hvis du svarer på spørgeskema om Børneside<\/h3>\n<p>Rabatten kan ikke anvendes til semesterkits<\/p>\n<a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSe_SLmcB4i-80aCzTop0mebAAlycxCPetZqRX1nv68uZT4krw\/viewform?usp=sf_link\">Klik her for at deltage<\/a>\n<\/div>\n    <div id=\"left\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0444\/6932\/1894\/files\/500_x_100_5.png?v=1692619913\"><\/div>\n    <div id=\"right\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0444\/6932\/1894\/files\/6a0f48436f03bf48e8c7f28f9f150b4c.png?v=1692619914\"><\/div>\n<\/div>"
+        }
+      },
+      "collectionlist_forkids": {
+        "type": "collectionlist_forkids",
+        "blocks": {
+          "4e307308-2477-43ea-a52d-650fb5f69715": {
+            "type": "collection",
+            "settings": {
+              "collection": "for-born-fra-5-ar",
+              "image": "shopify:\/\/shop_images\/5.png",
+              "link": ""
+            }
+          },
+          "aee7915a-c0f3-486c-a60f-228773ba9a0e": {
+            "type": "collection",
+            "settings": {
+              "collection": "for-born-fra-8-ar",
+              "image": "shopify:\/\/shop_images\/8.png",
+              "link": ""
+            }
+          },
+          "30f5782d-19b4-4410-a681-b32fa670e268": {
+            "type": "collection",
+            "settings": {
+              "collection": "for-born-fra-11-ar",
+              "image": "shopify:\/\/shop_images\/11.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4e307308-2477-43ea-a52d-650fb5f69715",
+          "aee7915a-c0f3-486c-a60f-228773ba9a0e",
+          "30f5782d-19b4-4410-a681-b32fa670e268"
+        ],
+        "custom_css": [
+          "{font-size: 11px;}",
+          "@media (min-width: 1000px) {.collection-list {width: 85%; margin: -80px -110px -50px 155px; }}",
+          "@media (max-width: 600px) {.collection-item {width: 25%; padding: 0 px; }}"
+        ],
+        "settings": {
+          "title": "",
+          "link_title": "",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "custom-htmlforkidspage": {
+        "type": "custom-htmlforkidspage",
+        "custom_css": [
+          "{text-align: center;}",
+          "@media (max-width: 600px) {{}}"
+        ],
+        "settings": {
+          "title": "",
+          "html": "<h1>Hvad er fordelene ved at lære børn i elektronik?<\/h1>"
+        }
+      },
+      "image-with-text": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/father-son-making-robot_3.png",
+          "image_position": "left",
+          "image_width": 50,
+          "title": "Udvikler evner til problemløsning og kritisk tænkning",
+          "content": "<p>Når børn kaster sig ud i elektronikprojekter som eksempelvis at samle digitale kredsløb eller robot, tilegner de sig evnen til at afdække de små skridt, der tilsammen udgør en betydningsfuld rejse. De udvikler evnen til at identificerer og løser eventuelle fejl eller udfordringer i processen. Dette bidrager til udviklingen af deres analytiske færdigheder og kritiske tænkning.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "images-with-textforkids": {
+        "type": "images-with-textforkids",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/kid-playing-with-cubes.png",
+          "image_position": "right",
+          "image_width": 65,
+          "title": "Fremmer kreativitet og innovation",
+          "content": "<p>Elektronik åbner op for kreative og innovation muligheder, da børn kan eksperimentere med forskellige komponenter og designe deres egne kredsløb. Dette stimulerer deres kreativitet og giver dem mulighed for at tænke uden for boksen.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "custom-htmlforkidspage2": {
+        "type": "custom-htmlforkidspage2",
+        "custom_css": [
+          "{text-align: center;}",
+          "@media (max-width: 600px) {{margin-bottom: -100px; }}"
+        ],
+        "settings": {
+          "title": "",
+          "html": "<h1>Spændende elektronikprojekter, som børn kan engagere sig i<\/h1>"
+        }
+      },
+      "custom-html": {
+        "type": "custom-html",
+        "custom_css": [
+          ".left {float: left; width: 60%; padding-left: 50px;}",
+          ".right {float: right; width: 40%; padding: 50px;}",
+          "a {text-decoration: none; border: 0.2px solid; color: white; background: #df9c1e; padding: 10px; float: center;}",
+          "@media (max-width: 600px) {.right {font-size: 15px; width: 100%; } iframe {margin-left: -40px; width: 20em; height: 15em; }}"
+        ],
+        "settings": {
+          "title": "",
+          "html": "<div class=\"right\">\n<h2>Simple robotter<\/h2>\n<p> \nBørn kan bygge simple robotter ved hjælp af grundlæggende elektroniske komponenter såsom motorer, sensorer og mikrocontrollere. For eksempel kan de bygge en Solsporings robot, en Firbenet edderkop robot eller en simpel robotarm.\n <\/p>\n<a href=\"https:\/\/ebits.dk\/collections\/leg-og-laer\/robotter\">Se vores robotter<\/a>\n\n<\/div>\n    <div class=\"left\">\n<iframe src=\"https:\/\/www.youtube.com\/embed\/GQaaMWJbLgk\" width=\"560\" height=\"315\"><\/iframe>\n<\/div>"
+        }
+      },
+      "image-with-textforkidspage": {
+        "type": "image-with-textforkidspage",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Image_20230816120818-removebg-preview.png",
+          "image_position": "right",
+          "image_width": 40,
+          "title": "LED lys projekter:",
+          "content": "<p>Børn kan udnytte LED'er til at skabe sjove og kreative lysprojekter, såsom LED-lamper, Loddebille der lyser om natten .<\/p>",
+          "button_text": "Se loddebille der lyser om natten",
+          "button_link": "https:\/\/ebits.dk\/products\/loddebille-der-lyser-om-natten"
+        }
+      },
+      "slideshow2": {
+        "type": "slideshow2",
+        "blocks": {
+          "81996bcf-4866-4fc0-a36b-be2496b5a88b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/montage-copy-space-wooden-table-blurred-kids-playroom-background-kindergarten-3d-rendering_22724291.png",
+              "show_overlay": true,
+              "overlay_opacity": 90,
+              "text_color": "#ffffff",
+              "title": "Mini Tank Robot",
+              "content": "Få den alt-i-en Mini Tank Robot med dobbelt funktionalitet til en enkelt pris - den kan udstyres med ultrasonisk sensor eller flammesensorer, styres via Bluetooth eller infrarød fjernbetjening, og udføre opgaver som at følge streg, lyskilde, undgå objekter og forblive indenfor et bestemt område.",
+              "content_position": "bottom_left",
+              "button_background": "#df9c1e",
+              "button_text_color": "#ffffff",
+              "button_text": "See produkte",
+              "link": "https:\/\/ebits.dk\/products\/mini-tank-robot"
+            }
+          }
+        },
+        "block_order": [
+          "81996bcf-4866-4fc0-a36b-be2496b5a88b"
+        ],
+        "settings": {
+          "edge_to_edge": false,
+          "section_size": "large",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "rich-text": {
+        "type": "rich-text",
+        "custom_css": [
+          "p {text-align: left; font-size: 13px;}"
+        ],
+        "settings": {
+          "text_width": "narrow",
+          "title": "Køb Elektronik komponenter hos eBits",
+          "content": "<p>Elektronik komponenter er hjørnestenen i enhver elektronisk enhed og spiller en afgørende rolle i moderne teknologi. Disse essentielle byggesten muliggør design og funktion af elektroniske kredsløb. <\/p><p>Elektronik komponenter, med deres alsidighed og nøglefunktioner, udgør kernen i moderne teknologiske systemer. <a href=\"https:\/\/ebits.dk\/collections\/batteirer\" title=\"https:\/\/ebits.dk\/collections\/batteirer\">Batterier<\/a>, som en form for elektronisk komponent, forsyner strøm og fungerer som energikilde. <a href=\"https:\/\/ebits.dk\/collections\/displays\" title=\"https:\/\/ebits.dk\/collections\/displays\">Displays<\/a>, en anden vigtig elektronisk komponent, visualiserer information, mens <a href=\"https:\/\/ebits.dk\/collections\/effekt-elektronik\" title=\"https:\/\/ebits.dk\/collections\/effekt-elektronik\">effekt elektronik<\/a>, herunder <a href=\"https:\/\/ebits.dk\/collections\/stromforsyninger\" title=\"https:\/\/ebits.dk\/collections\/stromforsyninger\">strømforsyninger<\/a> og omformere, styrer elektrisk energi. <a href=\"https:\/\/ebits.dk\/collections\/interfaces\" title=\"https:\/\/ebits.dk\/collections\/interfaces\">Interface konvertere <\/a>faciliterer kommunikation mellem enheder, mens <a href=\"https:\/\/ebits.dk\/collections\/kamera\" title=\"https:\/\/ebits.dk\/collections\/kamera\">kameraer<\/a>, <a href=\"https:\/\/ebits.dk\/collections\/lyd\" title=\"https:\/\/ebits.dk\/collections\/lyd\">lydkomponenter<\/a>, <a href=\"https:\/\/ebits.dk\/collections\/lys\" title=\"https:\/\/ebits.dk\/collections\/lys\">lyskomponenter<\/a>, <a href=\"https:\/\/ebits.dk\/collections\/motorer\" title=\"https:\/\/ebits.dk\/collections\/motorer\">motorer<\/a>, <a href=\"https:\/\/ebits.dk\/collections\/maleudstyr\" title=\"https:\/\/ebits.dk\/collections\/maleudstyr\">måleudstyr<\/a> og <a href=\"https:\/\/ebits.dk\/collections\/sensorer\" title=\"https:\/\/ebits.dk\/collections\/sensorer\">sensorer<\/a> udgør afgørende dele af det komplekse netværk af elektronik komponenter. Disse komponenter arbejder sammen i harmoni og synergistisk for at skabe innovative løsninger og optimere ydeevnen af elektroniske kredsløb.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "886a0455-9b88-4dca-9ae4-ef904a6bbeeb": {
+        "type": "rich-text",
+        "custom_css": [
+          "p {font-size: 13px;}"
+        ],
+        "settings": {
+          "text_width": "narrow",
+          "title": "eBits - din online elektronik butik i Danmark",
+          "content": "<p>eBits er en dansk elektronik butik, der specialiserer sig i salg af udviklingselektronik og <a href=\"https:\/\/ebits.dk\/pages\/elektronik-komponenter\" target=\"_blank\" title=\"https:\/\/ebits.dk\/pages\/elektronik-komponenter\">elektronik komponenter<\/a> til erhverv, hobbyister og skoler. Som din foretrukne online elektronik butik har vi et stort udvalg af høj kvalitet til lavpriser. Vores sortiment inkluderer alt fra <a href=\"https:\/\/ebits.dk\/pages\/mikrokontrollere\" target=\"_blank\" title=\"https:\/\/ebits.dk\/pages\/mikrokontrollere\">mikrocontrollere<\/a> som <a href=\"https:\/\/ebits.dk\/collections\/arduino\/arduino\" target=\"_blank\" title=\"https:\/\/ebits.dk\/collections\/arduino\/arduino\">Arduino <\/a>og <a href=\"https:\/\/ebits.dk\/collections\/esp32-udviklingsboard\" target=\"_blank\" title=\"https:\/\/ebits.dk\/collections\/esp32-udviklingsboard\">ESP32<\/a>, til <a href=\"https:\/\/ebits.dk\/collections\/sensorer\" title=\"https:\/\/ebits.dk\/collections\/sensorer\">sensorer<\/a>, <a href=\"https:\/\/ebits.dk\/collections\/kabler-og-stik\" title=\"https:\/\/ebits.dk\/collections\/kabler-og-stik\">kabler<\/a>, <a href=\"https:\/\/ebits.dk\/pages\/loddeudstyr-tilbehor\" title=\"https:\/\/ebits.dk\/pages\/loddeudstyr-tilbehor\">loddeudstyr<\/a> og meget mere. Uanset om du arbejder på et professionelt projekt, et hobbyprojekt eller underviser i elektronik, kan du stole på, at vi som din pålidelige elektronik butik har de rette ressourcer til dig.<\/p><p>Vi er en professionel elektronik butik, der er eksperter inden for udviklingselektronik. Med mere end 10 års erfaring står vi klar til at hjælpe dig med at finde de perfekte komponenter til dit projekt. Har du spørgsmål eller har du brug for et tilbud til dit elektronikprojekt?  Kontakt os! <\/p><p>Ud over vores omfattende udvalg tilbyder vi også <a href=\"https:\/\/www.imaginarium.consulting\/\" title=\"https:\/\/www.imaginarium.consulting\/\">konsultation<\/a> til dig, der leder efter avanceret sparring og specialiseret rådgivning for at optimere deres projekt. Samtidig giver vi dig også muligheden for at deltage i vores <a href=\"https:\/\/ebits.dk\/pages\/elektronik-kursus\" title=\"https:\/\/ebits.dk\/pages\/elektronik-kursus\">elektronik kurser<\/a>, der er designet til at forbedre dine færdigheder og udvide din forståelse af elektronikens verden. Uanset om du er nybegynder eller erfaren, har vi online kurser, der passer til dit niveau.<\/p><p>Vi prioriterer hurtig og billig levering, typisk inden for 3 dage, så du kan komme i gang med dit projekt uden unødvendige forsinkelser! Vi ser frem til at betjene dig som din foretrukne online elektronik butik i Danmark.<\/p><p><\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "rich-text2": {
+        "type": "rich-text2",
+        "custom_css": [
+          "p {text-align: left; font-size: 13px;}"
+        ],
+        "settings": {
+          "text_width": "narrow",
+          "title": "Køb Microcontroller hos Bits",
+          "content": "<p>En <a href=\"https:\/\/ebits.dk\/collections\/mikrokontrollere\" target=\"_blank\" title=\"https:\/\/ebits.dk\/collections\/mikrokontrollere\">mikrocontroller<\/a> er en kompakt integreret kreds, der kombinerer en centralprocessorenhed (CPU), hukommelse og ind- og udgangsperiferi i et enkelt kredsløb. Denne enhed fungerer som hjernen i mange elektroniske systemer, og dens nøglekomponenter er kondenseret for at opnå en pladsbesparende og energieffektiv løsning.<br\/><br\/>Eksempler på mikrocontrollere inkluderer populære serier som <a href=\"https:\/\/ebits.dk\/collections\/arduino\" title=\"https:\/\/ebits.dk\/collections\/arduino\">Arduino<\/a>, <a href=\"https:\/\/ebits.dk\/collections\/esp32-udviklingsboard\" target=\"_blank\" title=\"https:\/\/ebits.dk\/collections\/esp32-udviklingsboard\">ESP32<\/a>, og <a href=\"https:\/\/ebits.dk\/collections\/raspberry-pi\" title=\"https:\/\/ebits.dk\/collections\/raspberry-pi\">Raspberry Pi<\/a>. Disse enheder er programmerbare og giver udviklere mulighed for at skabe skræddersyede elektroniske styringsapplikationer, sensorinterface og automatiseringssystemer.<br\/><br\/>Mikrocontrollere anvendes bredt i industrielle kontrolsystemer, medicinsk udstyr, forbrugerelektronik og indlejrede systemer. De styrer alt fra husholdningsapparater og biler til komplekse elektroniske enheder. Deres alsidighed og programmerbare natur gør dem essentielle for udviklere, der ønsker at skabe tilpassede løsninger til specifikke opgaver.<br\/><br\/>Med deres evne til at håndtere ind- og udgangsoperationer og udføre beregninger i realtid, er mikrocontrollere afgørende for den moderne teknologiske udvikling og udgør grundlaget for Internet of Things (IoT), automation og intelligent elektronik.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "rich-text3": {
+        "type": "rich-text3",
+        "custom_css": [
+          "p {text-align: left; font-size: 13px;}"
+        ],
+        "settings": {
+          "text_width": "narrow",
+          "title": "Køb Loddeudstyr & Tilbehør hos eBits",
+          "content": "<p>Loddeudstyr & Tilbehør udgør hjørnestenen i elektronikarbejde, og denne omfattende kategori omfatter essentielle værktøjer og materialer til lodningsprojekter. Eksempler inkluderer <a href=\"https:\/\/ebits.dk\/collections\/loddekolbe\" title=\"https:\/\/ebits.dk\/collections\/loddekolbe\">loddekolber<\/a>, <a href=\"https:\/\/ebits.dk\/products\/loddepasta-lavtemperatur-blyfri\" title=\"https:\/\/ebits.dk\/products\/loddepasta-lavtemperatur-blyfri\">loddepasta<\/a>, <a href=\"https:\/\/ebits.dk\/products\/loddetin-blyfri-50g-0-8mm\" title=\"https:\/\/ebits.dk\/products\/loddetin-blyfri-50g-0-8mm\">loddetin<\/a>, <a href=\"https:\/\/ebits.dk\/products\/kolbe-holder-med-fugtsvamp\" title=\"https:\/\/ebits.dk\/products\/kolbe-holder-med-fugtsvamp\">holdere<\/a> og <a href=\"https:\/\/ebits.dk\/products\/loddekolbe-spids-renser\" title=\"https:\/\/ebits.dk\/products\/loddekolbe-spids-renser\">rengøringsmidler<\/a>. Loddekolber, såsom digitale varmejusterbare modeller, muliggør præcise og kontrollerede lodningsprocesser.<a href=\"https:\/\/ebits.dk\/products\/loddepasta-lavtemperatur-blyfri\" title=\"https:\/\/ebits.dk\/products\/loddepasta-lavtemperatur-blyfri\"> Loddepasta<\/a> bruges til at lette <a href=\"https:\/\/ebits.dk\/products\/flux-i-sprojte\" title=\"https:\/\/ebits.dk\/products\/flux-i-sprojte\">flux<\/a> og forbedre flussoverførslen for at opnå stærkere og mere pålidelige forbindelser. Tinsorter, der varierer i sammensætning, tilbyder forskellige smeltepunkter og egnethed til specifikke opgaver.<br\/><br\/><a href=\"https:\/\/ebits.dk\/products\/kolbe-holder-med-fugtsvamp\" title=\"https:\/\/ebits.dk\/products\/kolbe-holder-med-fugtsvamp\">Holdere<\/a> og rengøringsmidler er afgørende for en effektiv arbejdsstation. Holdere sikrer sikker opbevaring af loddekolben og muliggør hurtig adgang under arbejdet. Rengøringsmidler, som f.eks. en <a href=\"https:\/\/ebits.dk\/products\/loddekolbe-spids-renser\" title=\"https:\/\/ebits.dk\/products\/loddekolbe-spids-renser\">loddekolbe spids renser,<\/a> hjælper med at fjerne overskydende tin og opretholde kolbens ydeevne.<br\/><br\/>Disse loddeudstyr og tilbehør er afgørende for elektronikreparation, prototyping og fremstilling. Uanset om det er lodning af komponenter på et printkort eller oprettelse af brugerdefinerede kredsløb, er dette udstyr designet til at sikre præcise og pålidelige forbindelser, hvilket er fundamentalt for vellykkede elektronikprojekter.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "rich-text4": {
+        "type": "rich-text4",
+        "custom_css": [
+          "p {text-align: left; font-size: 13px;}"
+        ],
+        "settings": {
+          "text_width": "narrow",
+          "title": "Køb Elektronik værktøj hos eBits",
+          "content": "<p>Søger du elektronikværktøj? Du er landet det rette sted! Vores sortiment dækker bredt og tilbyder værktøj til elektronik i høj kvalitet til lave priser. Find det nødvendige udstyr i vores kategorier ovenfor.<br\/><br\/>Vores udvalg af værktøj, der imødekommer både professionelle og private behov. Når det handler om elektronikarbejde, er det afgørende at have det rette værktøj til rådighed.  Som en førende onlinebutik inden for elektronikværktøj har vi helt sikkert det udstyr, du leder efter, såsom loddekolber, Kabler og strømforsyninger.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      }
+    },
+    "content_for_index": [
+      "305c2a46-a38f-4177-998c-cff5ab91190a",
+      "7963e800-8105-4b01-b48b-d69c33eb56fd",
+      "1627634344a6be2a0e",
+      "1ea36d2f-c776-4e8b-9694-36915175e085",
+      "162763439638a75784",
+      "1642847491c562287d",
+      "1625311178b527c97f",
+      "featured-product",
+      "886a0455-9b88-4dca-9ae4-ef904a6bbeeb",
+      "163231337271bd932f"
+    ],
+    "blocks": {
+      "13719191476287292668": {
+        "type": "shopify:\/\/apps\/mega-pdf-invoice-order-printer\/blocks\/mega-pdf-invoice-order-printer-embed\/27643da7-18e4-4f79-8cf5-5a4b3f10002f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "language-translate": {
+        "type": "shopify:\/\/apps\/language-translate-by-uplinkly\/blocks\/language-translate\/56a854bb-67ff-48c6-ba58-9185b4505de7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6048552914641687618": {
+        "type": "shopify:\/\/apps\/webrex-currency-converter\/blocks\/app-embed\/065e70d9-d1e0-4d56-a8a3-a58701e43093",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "header_accent_color": "#00badb",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "footer_background_color": "#f3f5f6",
+      "footer_heading_text_color": "#1e2d7d",
+      "footer_body_text_color": "#677279",
+      "footer_accent_color": "#00badb",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_checkout_button": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "header_accent_color": "#ff6128",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "footer_background_color": "#f7f4f2",
+      "footer_heading_text_color": "#3a2a2f",
+      "footer_body_text_color": "#3a2a2f",
+      "footer_accent_color": "#ff6128",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_checkout_button": true,
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    },
+    "Fabric": {
+      "heading_color": "#222021",
+      "text_color": "#616161",
+      "accent_color": "#cb1836",
+      "link_color": "#cb1836",
+      "border_color": "#e8e8e8",
+      "background": "#f5f5f5",
+      "secondary_background": "#ffffff",
+      "error_color": "#cf0e0e",
+      "success_color": "#1c7b36",
+      "primary_button_background": "#cb1836",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#222021",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#222021",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e8e8e8",
+      "header_accent_color": "#cb1836",
+      "footer_background_color": "#222021",
+      "footer_heading_text_color": "#ffffff",
+      "footer_body_text_color": "#ffffff",
+      "footer_accent_color": "#cb1836",
+      "product_on_sale_accent": "#cf0e0e",
+      "product_in_stock_color": "#1c7b36",
+      "product_low_stock_color": "#cf0e0e",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#3f6ab1",
+      "product_label_2_background": "#8a44ae",
+      "product_star_color": "#ffbd00",
+      "base_text_font_size": 16,
+      "heading_font": "avenir_next_n7",
+      "text_font": "avenir_next_n5",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "before_title",
+      "product_image_size": "square",
+      "show_color_swatch": true,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 2,
+      "show_reviews_badge": true,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_checkout_button": true,
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "49",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#cb1836",
+      "checkout_button_color": "#cb1836",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#222021",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    }
+  }
+}

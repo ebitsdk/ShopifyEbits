@@ -1,0 +1,591 @@
+{% style %}
+.masonry-gallery .prev,
+.masonry-gallery .next {
+	position: fixed;
+	top: 0;
+	width: 15%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	z-index: 999;
+	color: rgba(255,255,255,.5);
+	font-size: 8rem;
+	font-family: monospace;
+	transition: all .2s;
+}
+
+.masonry-gallery .prev:hover,
+.masonry-gallery .next:hover {
+	color: rgba(255,255,255,.8);
+}
+
+.masonry-gallery .prev {left: -25%;}
+.masonry-gallery .next {right: -25%;}
+
+.masonry-gallery.active .prev {left: 0;}
+.masonry-gallery.active .next {right: 0;}
+
+.masonry-container {
+  margin: 20px auto;
+  max-width: 1480px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+}
+.masonry-container div {
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: rgba(0,0,0,.2);
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.masonry-container div img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  transition: all .5s;
+}
+
+.masonry-container div.show::before {
+  content: '';
+  display: block;
+  position: fixed;
+  z-index: 555;
+  width: 100vw;
+  height: 100vh;
+  top: 0; left: 0;
+  background: rgba(0,0,0,.6);
+}
+
+.masonry-container div.show img {
+  position: fixed;
+  top: 0; left: 0;
+  margin: 30px;
+  align-self: center;
+  object-fit: contain;
+  z-index: 666;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  filter: drop-shadow(0 3px 15px black);
+  cursor: url(close-button.png), grab;
+}
+
+.masonry-container div:not(.show):hover img {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+
+.masonry-container .horizontal {
+	grid-column: span 2;
+}
+
+.masonry-container .vertical {
+	grid-row: span 2;
+}
+
+.masonry-container .big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.masonry-gallery.active .image-box:not(.show) img {
+	filter: blur(3px);
+}
+.image-box{
+  position: relative;
+}
+.image-box a{
+  display: block;
+  width: 100%;
+}
+.color-overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+}
+.image-box .product-content{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  display: block;
+  padding: 15px;
+  background-color: transparent;
+}
+.image-box .product-content .product-title{
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 0;
+}
+.image-box .product-content .product-price{
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  color: #eeeeee;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.image-box .collection-content{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  display: block;
+  padding: 15px;
+  background-color: transparent;
+}
+.image-box .collection-content .collection-title{
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.image-box .shop-btn{
+  color: #ffffff;
+  background-color: #E74C3C;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: table;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+	font-weight: 700;
+}
+
+@media (max-width: 600px){
+  .masonry-container .image-box{
+  	grid-column: span 2;
+  }
+}
+{% endstyle %}
+<section class="container masonry-gallery">
+  <a href="#" class="prev">&lt;</a>
+  <a href="#" class="next">&gt;</a>
+  <div class="masonry-container">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'Image' %}
+    	{% assign range =  block.settings.color_opacity %}
+        {% if block.settings.grid_size == "small" %}
+    		<div class="image-box">
+              <a href="{{ block.settings.image_link }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ block.settings.button_text }}</h6>
+              </div>
+              <img class="lazyload" data-src="{{ block.settings.image_thumbnail | img_url: 'master' }}" alt="Image Thumbnail"/>
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "big" %}
+  			<div class="image-box big">
+              <a href="{{ block.settings.image_link }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ block.settings.button_text }}</h6>
+              </div>
+              <img class="lazyload" data-src="{{ block.settings.image_thumbnail | img_url: 'master' }}" alt="Image Thumbnail"/>
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "vertical" %}
+  			<div class="image-box vertical">
+              <a href="{{ block.settings.image_link }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ block.settings.button_text }}</h6>
+              </div>
+              <img class="lazyload" data-src="{{ block.settings.image_thumbnail | img_url: 'master' }}" alt="Image Thumbnail"/>
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "horizontal" %}
+  			<div class="image-box horizontal">
+              <a href="{{ block.settings.image_link }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ block.settings.button_text }}</h6>
+              </div>
+              <img class="lazyload" data-src="{{ block.settings.image_thumbnail | img_url: 'master' }}" alt="Image Thumbnail"/>
+              </a>
+    		</div>
+  		{% endif %}
+      {% when 'Product' %}
+    	{% assign product = block.settings.product_id %}
+    	{% assign range =  block.settings.color_opacity %}
+        {% if block.settings.grid_size == "small" %}
+  			<div class="image-box">
+              <a href="{{ product.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="product-content" id="product-content-{{ product.id }}">
+                <h6 class="product-title">{{ product.title }}</h6>
+                <span class="product-price">{{ product.price | money }}</span>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{{product.featured_image | product_img_url: 'master' }}" alt="{{ product.title }}">
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "big" %}
+  			<div class="image-box big">
+              <a href="{{ product.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="product-content" id="product-content-{{ product.id }}">
+                <h6 class="product-title">{{ product.title }}</h6>
+                <span class="product-price">{{ product.price | money }}</span>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{{product.featured_image | product_img_url: 'master' }}" alt="{{ product.title }}">
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "vertical" %}
+  			<div class="image-box vertical">
+              <a href="{{ product.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="product-content" id="product-content-{{ product.id }}">
+                <h6 class="product-title">{{ product.title }}</h6>
+                <span class="product-price">{{ product.price | money }}</span>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{{product.featured_image | product_img_url: 'master' }}" alt="{{ product.title }}">
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "horizontal" %}
+  			<div class="image-box horizontal">
+              <a href="{{ product.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="product-content" id="product-content-{{ product.id }}">
+                <h6 class="product-title">{{ product.title }}</h6>
+                <span class="product-price">{{ product.price | money }}</span>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{{product.featured_image | product_img_url: 'master' }}" alt="{{ product.title }}">
+              </a>
+    		</div>
+  		{% endif %}
+      {% when 'Collection' %}
+    	{% assign collection =  block.settings.collection_id %}
+    	{% assign range =  block.settings.color_opacity %}
+        {% if block.settings.grid_size == "small" %}
+  			<div class="image-box">
+              <a href="{{ collection.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ collection.title }}</h6>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{% if collection.image.src == blank %}{{ block.settings.image_thumbnail | img_url: 'master' }}{% else %}{{collection.image.src | collection_img_url: 'master' }}{% endif %}" alt="{{ collection.title }}">
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "big" %}
+  			<div class="image-box big">
+              <a href="{{ collection.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ collection.title }}</h6>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{% if collection.image.src == blank %}{{ block.settings.image_thumbnail | img_url: 'master' }}{% else %}{{collection.image.src | collection_img_url: 'master' }}{% endif %}" alt="{{ collection.title }}">
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "vertical" %}
+  			<div class="image-box vertical">
+              <a href="{{ collection.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ collection.title }}</h6>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{% if collection.image.src == blank %}{{ block.settings.image_thumbnail | img_url: 'master' }}{% else %}{{collection.image.src | collection_img_url: 'master' }}{% endif %}" alt="{{ collection.title }}">
+              </a>
+    		</div>
+  		{% elsif block.settings.grid_size == "horizontal" %}
+  			<div class="image-box horizontal">
+              <a href="{{ collection.url }}">
+              <div class="color-overlay" style="background-color: {{ block.settings.color_overlay }}; opacity: {% if range < 10 %}.0{% else %}.{% endif %}{{ block.settings.color_opacity }}"></div>
+              <div class="collection-content" id="collection-content-{{ collection.id }}">
+                <h6 class="collection-title">{{ collection.title }}</h6>
+                {% if block.settings.button_text != blank %}<a href="{{ collection.url }}" class="shop-btn" style="bacground-color: {{ block.settings.button_color }}">{{ block.settings.button_text }}</a>{% endif %}
+              </div>
+              <img class="lazyload" data-src="{% if collection.image.src == blank %}{{ block.settings.image_thumbnail | img_url: 'master' }}{% else %}{{collection.image.src | collection_img_url: 'master' }}{% endif %}" alt="{{ collection.title }}">
+              </a>
+            </div>
+  		{% endif %}
+    {% endcase %}
+  {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+	"name": "Masonry Gallery",
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "Image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "select",
+            "id": "grid_size",
+            "label": "Grid Size",
+            "default": "small",
+            "options": [
+              {
+                "value": "small",
+                "label": "small"
+              },
+              {
+                "value": "big",
+                "label": "big"
+              },
+              {
+                "value": "horizontal",
+                "label": "horizontal"
+              },
+              {
+                "value": "vertical",
+                "label": "vertical"
+              }
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image_thumbnail",
+            "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "image_link",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Image Text"
+          },
+          {
+            "type": "color",
+            "id": "color_overlay",
+            "label": "Color Overlay",
+            "default": "#333333"
+          },
+          {
+            "type": "range",
+            "id": "color_opacity",
+            "label": "Color Opacticy",
+            "default": 5,
+            "min": 0,
+            "max": 95,
+            "step": 5
+          }
+        ]
+      },
+      {
+        "type": "Product",
+        "name": "Product",
+        "settings": [  
+          {
+            "type": "select",
+            "id": "grid_size",
+            "label": "Grid Size",
+            "default": "small",
+            "options": [
+              {
+                "value": "small",
+                "label": "small"
+              },
+              {
+                "value": "big",
+                "label": "big"
+              },
+              {
+                "value": "horizontal",
+                "label": "horizontal"
+              },
+              {
+                "value": "verticaL",
+                "label": "verticaL"
+              }
+            ]
+          },
+          {
+            "type": "product",
+            "id": "product_id",
+            "label": "Product"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text"
+          },
+          {
+            "type": "color",
+            "id": "button_color",
+            "label": "Button Color",
+            "default": "#E74C3C"
+          },
+          {
+            "type": "color",
+            "id": "color_overlay",
+            "label": "Color Overlay",
+            "default": "#333333"
+          },
+          {
+            "type": "range",
+            "id": "color_opacity",
+            "label": "Color Opacticy",
+            "default": 5,
+            "min": 0,
+            "max": 90,
+            "step": 5
+          }
+        ]
+      },
+      {
+        "type": "Collection",
+        "name": "Collection",
+        "settings": [  
+          {
+            "type": "select",
+            "id": "grid_size",
+            "label": "Grid Size",
+            "default": "small",
+            "options": [
+              {
+                "value": "small",
+                "label": "small"
+              },
+              {
+                "value": "big",
+                "label": "big"
+              },
+              {
+                "value": "horizontal",
+                "label": "horizontal"
+              },
+              {
+                "value": "verticaL",
+                "label": "verticaL"
+              }
+            ]
+          },     
+          {
+            "type": "collection",
+            "id": "collection_id",
+            "label": "Collection"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_thumbnail",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text"
+          },
+          {
+            "type": "color",
+            "id": "button_color",
+            "label": "Button Color",
+            "default": "#E74C3C"
+          },
+          {
+            "type": "color",
+            "id": "color_overlay",
+            "label": "Color Overlay",
+            "default": "#333333"
+          },
+          {
+            "type": "range",
+            "id": "color_opacity",
+            "label": "Color Opacticy",
+            "default": 5,
+            "min": 0,
+            "max": 95,
+            "step": 5
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "Home",
+        "name": "Masonry Gallery"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+{%- comment -%}
+<script type="text/javascript">
+  const divs = document.querySelectorAll('.image-box');
+  const body = document.body;
+  const prev = document.querySelector('.prev');
+  const next = document.querySelector('.next');
+
+  checkPrev = () => document.querySelector('div:first-child').classList.contains('show') ? prev.style.display = 'none' : prev.style.display = 'flex';
+
+  checkNext = () => document.querySelector('div:last-child').classList.contains('show') ? next.style.display = 'none' : next.style.display = 'flex';
+
+  Array.prototype.slice.call(divs).forEach(function (el) {
+    el.addEventListener('click', function () {
+      const container = document.querySelector('.masonry-gallery');
+      this.classList.toggle('show');
+      container.classList.toggle('active');
+      checkNext();
+      checkPrev();
+    });
+  });
+
+  prev.addEventListener('click', function() {
+      const container = document.querySelector('.masonry-gallery');
+    const show = document.querySelector('.show');
+    const event = document.createEvent('HTMLEvents');
+    event.initEvent('click', true, false);
+
+    show.previousElementSibling.dispatchEvent(event);
+    show.classList.remove('show');
+    container.classList.toggle('active');
+    checkNext();
+  });
+
+  next.addEventListener('click', function() {
+      const container = document.querySelector('.masonry-gallery');
+    const show = document.querySelector('.show');
+    const event = document.createEvent('HTMLEvents');
+    event.initEvent('click', true, false);
+
+    show.nextElementSibling.dispatchEvent(event);
+    show.classList.remove('show');
+    container.classList.toggle('active');
+    checkPrev();
+  });
+</script>
+{%- endcomment -%}

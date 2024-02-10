@@ -1,0 +1,54 @@
+<div class="header-and-description">
+  <div class="container">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'header' -%}
+        <h2 class="team__section-title heading h3">{{ block.settings.title | escape }}</h2>
+
+        {%- when 'header_description' -%}
+        <h2 class="team__section-title heading h3">{{ block.settings.title | escape }}</h2>
+        <p class="section-description"></p>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Header and Description",
+  "settings": [
+    
+  ],
+  "blocks": [
+    {
+      "type": "header",
+      "name": "Title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Heading",
+          "default": "Section title"
+        }
+      ]
+    },
+    {
+      "type": "header_description",
+      "name": "Title and Description",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Heading",
+          "default": "Section title"
+        },
+        {
+          "type": "richtext",
+          "id": "section_description",
+          "label": "Description",
+          "default": "<p>Description</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
